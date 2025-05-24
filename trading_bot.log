@@ -1,0 +1,1304 @@
+2025-05-17 09:13:04,313 - __main__ - WARNING - No Telegram token found in environment variables
+2025-05-17 09:13:04,313 - __main__ - INFO - Allowed Telegram users: []
+2025-05-17 09:13:04,319 - websocket_client - INFO - Database initialized for market data
+2025-05-17 09:13:04,320 - websocket_client - INFO - Binance WebSocket client initialized
+2025-05-17 09:13:04,323 - indicators - INFO - Technical analysis database initialized
+2025-05-17 09:13:04,323 - indicators - INFO - Technical indicators module initialized
+2025-05-17 09:13:04,327 - ai_model_enhanced - INFO - AI model database initialized
+2025-05-17 09:13:04,327 - ai_model_enhanced - INFO - Enhanced AI model initialized with multi-model support
+2025-05-17 09:13:04,331 - signal_generator - INFO - Signal database initialized
+2025-05-17 09:13:04,331 - signal_generator - INFO - Signal generator initialized
+2025-05-17 09:13:04,331 - __main__ - WARNING - No valid Telegram token provided, Telegram notifications will be disabled
+2025-05-17 09:13:04,331 - __main__ - INFO - All components initialized successfully
+2025-05-17 09:13:04,332 - __main__ - INFO - Trading bot initialized with enhanced components
+2025-05-17 09:13:04,332 - __main__ - INFO - Starting trading bot
+2025-05-17 09:13:04,806 - websocket_client - INFO - Excluded BCCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,816 - websocket_client - INFO - Excluded IOTAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,817 - websocket_client - INFO - Excluded XLMUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,818 - websocket_client - INFO - Excluded ONTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,818 - websocket_client - INFO - Excluded TRXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,820 - websocket_client - INFO - Excluded ICXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,821 - websocket_client - INFO - Excluded VENUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,821 - websocket_client - INFO - Excluded NULSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,822 - websocket_client - INFO - Excluded VETUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,822 - websocket_client - INFO - Excluded PAXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,823 - websocket_client - INFO - Excluded BCHABCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,824 - websocket_client - INFO - Excluded BCHSVUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,826 - websocket_client - INFO - Excluded BTTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,826 - websocket_client - INFO - Excluded USDSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,827 - websocket_client - INFO - Excluded ONGUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,828 - websocket_client - INFO - Excluded HOTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,828 - websocket_client - INFO - Excluded ZILUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,829 - websocket_client - INFO - Excluded ZRXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,831 - websocket_client - INFO - Excluded BATUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,833 - websocket_client - INFO - Excluded IOSTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,833 - websocket_client - INFO - Excluded CELRUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,834 - websocket_client - INFO - Excluded NANOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,835 - websocket_client - INFO - Excluded OMGUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,837 - websocket_client - INFO - Excluded ENJUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,838 - websocket_client - INFO - Excluded MITHUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,838 - websocket_client - INFO - Excluded MATICUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,840 - websocket_client - INFO - Excluded TFUELUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,840 - websocket_client - INFO - Excluded ONEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,841 - websocket_client - INFO - Excluded ALGOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,842 - websocket_client - INFO - Excluded USDSBUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,843 - websocket_client - INFO - Excluded GTOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,844 - websocket_client - INFO - Excluded ERDUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,845 - websocket_client - INFO - Excluded DOGEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,845 - websocket_client - INFO - Excluded DUSKUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,846 - websocket_client - INFO - Excluded ANKRUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,847 - websocket_client - INFO - Excluded WINUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,847 - websocket_client - INFO - Excluded COSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,848 - websocket_client - INFO - Excluded NPXSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,851 - websocket_client - INFO - Excluded PERLUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,851 - websocket_client - INFO - Excluded DENTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,852 - websocket_client - INFO - Excluded MFTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,853 - websocket_client - INFO - Excluded KEYUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,853 - websocket_client - INFO - Excluded STORMUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,854 - websocket_client - INFO - Excluded DOCKUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,855 - websocket_client - INFO - Excluded WANUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,855 - websocket_client - INFO - Excluded FUNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,856 - websocket_client - INFO - Excluded CVCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,856 - websocket_client - INFO - Excluded CHZUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,859 - websocket_client - INFO - Excluded BEAMUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,860 - websocket_client - INFO - Excluded RENUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,860 - websocket_client - INFO - Excluded RVNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,861 - websocket_client - INFO - Excluded HCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,861 - websocket_client - INFO - Excluded HBARUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,862 - websocket_client - INFO - Excluded NKNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,864 - websocket_client - INFO - Excluded KAVAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,864 - websocket_client - INFO - Excluded ARPAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,865 - websocket_client - INFO - Excluded IOTXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,867 - websocket_client - INFO - Excluded MCOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,867 - websocket_client - INFO - Excluded CTXCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,869 - websocket_client - INFO - Excluded TROYUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,869 - websocket_client - INFO - Excluded VITEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,871 - websocket_client - INFO - Excluded OGNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,871 - websocket_client - INFO - Excluded DREPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,872 - websocket_client - INFO - Excluded BULLUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,872 - websocket_client - INFO - Excluded BEARUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,873 - websocket_client - INFO - Excluded ETHBULLUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,873 - websocket_client - INFO - Excluded ETHBEARUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,874 - websocket_client - INFO - Excluded TCTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,874 - websocket_client - INFO - Excluded WRXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,875 - websocket_client - INFO - Excluded BTSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,876 - websocket_client - INFO - Excluded LTOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,877 - websocket_client - INFO - Excluded EOSBULLUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,877 - websocket_client - INFO - Excluded EOSBEARUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,878 - websocket_client - INFO - Excluded XRPBULLUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,878 - websocket_client - INFO - Excluded XRPBEARUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,879 - websocket_client - INFO - Excluded STRATUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,879 - websocket_client - INFO - Excluded AIONUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,880 - websocket_client - INFO - Excluded MBLUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,880 - websocket_client - INFO - Excluded COTIUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,881 - websocket_client - INFO - Excluded BNBBULLUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,881 - websocket_client - INFO - Excluded BNBBEARUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,882 - websocket_client - INFO - Excluded STPTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,882 - websocket_client - INFO - Excluded WTCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,883 - websocket_client - INFO - Excluded DATAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,883 - websocket_client - INFO - Excluded XZCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,885 - websocket_client - INFO - Excluded CTSIUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,885 - websocket_client - INFO - Excluded HIVEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,886 - websocket_client - INFO - Excluded CHRUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,887 - websocket_client - INFO - Excluded BTCDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,888 - websocket_client - INFO - Excluded GXSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,889 - websocket_client - INFO - Excluded ARDRUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,890 - websocket_client - INFO - Excluded LENDUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,890 - websocket_client - INFO - Excluded MDTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,891 - websocket_client - INFO - Excluded STMXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,891 - websocket_client - INFO - Excluded KNCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,892 - websocket_client - INFO - Excluded LRCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,893 - websocket_client - INFO - Excluded PNTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,894 - websocket_client - INFO - Excluded BKRWUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,895 - websocket_client - INFO - Excluded SCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,897 - websocket_client - INFO - Excluded ETHDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,897 - websocket_client - INFO - Excluded ADAUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,898 - websocket_client - INFO - Excluded ADADOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,898 - websocket_client - INFO - Excluded LINKUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,899 - websocket_client - INFO - Excluded LINKDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,900 - websocket_client - INFO - Excluded VTHOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,901 - websocket_client - INFO - Excluded DGBUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,901 - websocket_client - INFO - Excluded SXPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,902 - websocket_client - INFO - Excluded DAIUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,903 - websocket_client - INFO - Excluded STORJUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,904 - websocket_client - INFO - Excluded BNBDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,905 - websocket_client - INFO - Excluded XTZUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,905 - websocket_client - INFO - Excluded XTZDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,906 - websocket_client - INFO - Excluded MANAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,907 - websocket_client - INFO - Excluded BLZUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,908 - websocket_client - INFO - Excluded IRISUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,908 - websocket_client - INFO - Excluded KMDUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,909 - websocket_client - INFO - Excluded JSTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,909 - websocket_client - INFO - Excluded SRMUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,911 - websocket_client - INFO - Excluded SANDUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,912 - websocket_client - INFO - Excluded LUNAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,913 - websocket_client - INFO - Excluded RSRUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,914 - websocket_client - INFO - Excluded BZRXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,916 - websocket_client - INFO - Excluded DIAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,918 - websocket_client - INFO - Excluded FIOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,919 - websocket_client - INFO - Excluded EOSUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,919 - websocket_client - INFO - Excluded EOSDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,920 - websocket_client - INFO - Excluded TRXUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,921 - websocket_client - INFO - Excluded XRPUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,921 - websocket_client - INFO - Excluded XRPDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,922 - websocket_client - INFO - Excluded DOTUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,923 - websocket_client - INFO - Excluded BELUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,923 - websocket_client - INFO - Excluded WINGUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,924 - websocket_client - INFO - Excluded LTCUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,925 - websocket_client - INFO - Excluded LTCDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,926 - websocket_client - INFO - Excluded NBSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,926 - websocket_client - INFO - Excluded OXTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,927 - websocket_client - INFO - Excluded SUNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,929 - websocket_client - INFO - Excluded FLMUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,929 - websocket_client - INFO - Excluded UNIUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,930 - websocket_client - INFO - Excluded UNIDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,931 - websocket_client - INFO - Excluded UTKUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,933 - websocket_client - INFO - Excluded ALPHAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,935 - websocket_client - INFO - Excluded SXPUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,935 - websocket_client - INFO - Excluded SXPDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,936 - websocket_client - INFO - Excluded FILUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,937 - websocket_client - INFO - Excluded FILDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,937 - websocket_client - INFO - Excluded YFIUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,938 - websocket_client - INFO - Excluded YFIDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,938 - websocket_client - INFO - Excluded AUDIOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,939 - websocket_client - INFO - Excluded CTKUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,939 - websocket_client - INFO - Excluded BCHUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,940 - websocket_client - INFO - Excluded BCHDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,940 - websocket_client - INFO - Excluded AKROUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,941 - websocket_client - INFO - Excluded HARDUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,942 - websocket_client - INFO - Excluded DNTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,942 - websocket_client - INFO - Excluded STRAXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,943 - websocket_client - INFO - Excluded ROSEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,944 - websocket_client - INFO - Excluded XEMUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,945 - websocket_client - INFO - Excluded AAVEUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,945 - websocket_client - INFO - Excluded AAVEDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,946 - websocket_client - INFO - Excluded SKLUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,946 - websocket_client - INFO - Excluded SUSDUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,947 - websocket_client - INFO - Excluded SUSHIUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,947 - websocket_client - INFO - Excluded SUSHIDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,948 - websocket_client - INFO - Excluded XLMUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,949 - websocket_client - INFO - Excluded XLMDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,950 - websocket_client - INFO - Excluded GRTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,952 - websocket_client - INFO - Excluded 1INCHUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,953 - websocket_client - INFO - Excluded REEFUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,956 - websocket_client - INFO - Excluded CELOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,957 - websocket_client - INFO - Excluded RIFUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,957 - websocket_client - INFO - Excluded TRUUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,958 - websocket_client - INFO - Excluded CKBUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,959 - websocket_client - INFO - Excluded FIROUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,962 - websocket_client - INFO - Excluded DODOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,964 - websocket_client - INFO - Excluded FISUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,965 - websocket_client - INFO - Excluded OMUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,966 - websocket_client - INFO - Excluded PONDUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,967 - websocket_client - INFO - Excluded ALICEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,968 - websocket_client - INFO - Excluded LINAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,969 - websocket_client - INFO - Excluded PERPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,970 - websocket_client - INFO - Excluded RAMPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,971 - websocket_client - INFO - Excluded CFXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,971 - websocket_client - INFO - Excluded EPSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,973 - websocket_client - INFO - Excluded TKOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,973 - websocket_client - INFO - Excluded PUNDIXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,974 - websocket_client - INFO - Excluded TLMUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,975 - websocket_client - INFO - Excluded 1INCHUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,975 - websocket_client - INFO - Excluded 1INCHDOWNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,976 - websocket_client - INFO - Excluded MIRUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,978 - websocket_client - INFO - Excluded BAKEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,978 - websocket_client - INFO - Excluded BURGERUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,979 - websocket_client - INFO - Excluded SLPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,980 - websocket_client - INFO - Excluded SHIBUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,982 - websocket_client - INFO - Excluded POLSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,982 - websocket_client - INFO - Excluded MDXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,984 - websocket_client - INFO - Excluded NUUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,985 - websocket_client - INFO - Excluded XVGUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,985 - websocket_client - INFO - Excluded ATAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,986 - websocket_client - INFO - Excluded GTCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,987 - websocket_client - INFO - Excluded KEEPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,988 - websocket_client - INFO - Excluded KLAYUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,989 - websocket_client - INFO - Excluded PHAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,992 - websocket_client - INFO - Excluded C98USDT due to price below 0.5 USDT
+2025-05-17 09:13:04,993 - websocket_client - INFO - Excluded CLVUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,994 - websocket_client - INFO - Excluded FLOWUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,995 - websocket_client - INFO - Excluded TVKUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,996 - websocket_client - INFO - Excluded MINAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,997 - websocket_client - INFO - Excluded ALPACAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,998 - websocket_client - INFO - Excluded QUICKUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,998 - websocket_client - INFO - Excluded MBOXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:04,999 - websocket_client - INFO - Excluded FORUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,000 - websocket_client - INFO - Excluded REQUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,000 - websocket_client - INFO - Excluded WAXPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,001 - websocket_client - INFO - Excluded TRIBEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,002 - websocket_client - INFO - Excluded XECUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,002 - websocket_client - INFO - Excluded ELFUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,003 - websocket_client - INFO - Excluded POLYUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,004 - websocket_client - INFO - Excluded IDEXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,004 - websocket_client - INFO - Excluded VIDTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,005 - websocket_client - INFO - Excluded GALAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,006 - websocket_client - INFO - Excluded YGGUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,007 - websocket_client - INFO - Excluded SYSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,007 - websocket_client - INFO - Excluded DFUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,008 - websocket_client - INFO - Excluded FIDAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,008 - websocket_client - INFO - Excluded CVPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,010 - websocket_client - INFO - Excluded BETAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,010 - websocket_client - INFO - Excluded RAREUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,011 - websocket_client - INFO - Excluded CHESSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,012 - websocket_client - INFO - Excluded ADXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,014 - websocket_client - INFO - Excluded DARUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,016 - websocket_client - INFO - Excluded RGTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,026 - websocket_client - INFO - Excluded QIUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,042 - websocket_client - INFO - Excluded POWRUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,045 - websocket_client - INFO - Excluded VGXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,046 - websocket_client - INFO - Excluded JASMYUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,048 - websocket_client - INFO - Excluded AMPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,050 - websocket_client - INFO - Excluded PLAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,054 - websocket_client - INFO - Excluded MCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,055 - websocket_client - INFO - Excluded ANYUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,057 - websocket_client - INFO - Excluded BICOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,058 - websocket_client - INFO - Excluded FLUXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,060 - websocket_client - INFO - Excluded VOXELUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,063 - websocket_client - INFO - Excluded PEOPLEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,064 - websocket_client - INFO - Excluded OOKIUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,065 - websocket_client - INFO - Excluded SPELLUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,066 - websocket_client - INFO - Excluded USTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,067 - websocket_client - INFO - Excluded JOEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,067 - websocket_client - INFO - Excluded ACHUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,068 - websocket_client - INFO - Excluded GLMRUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,069 - websocket_client - INFO - Excluded LOKAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,070 - websocket_client - INFO - Excluded SCRTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,072 - websocket_client - INFO - Excluded BTTCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,073 - websocket_client - INFO - Excluded ACAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,073 - websocket_client - INFO - Excluded ANCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,074 - websocket_client - INFO - Excluded WOOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,075 - websocket_client - INFO - Excluded TUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,077 - websocket_client - INFO - Excluded ASTRUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,078 - websocket_client - INFO - Excluded NBTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,078 - websocket_client - INFO - Excluded GMTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,080 - websocket_client - INFO - Excluded BSWUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,082 - websocket_client - INFO - Excluded STEEMUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,082 - websocket_client - INFO - Excluded MOBUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,084 - websocket_client - INFO - Excluded REIUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,086 - websocket_client - INFO - Excluded EPXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,088 - websocket_client - INFO - Excluded LEVERUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,089 - websocket_client - INFO - Excluded STGUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,089 - websocket_client - INFO - Excluded LUNCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,091 - websocket_client - INFO - Excluded NEBLUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,092 - websocket_client - INFO - Excluded POLYXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,094 - websocket_client - INFO - Excluded OSMOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,095 - websocket_client - INFO - Excluded HFTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,096 - websocket_client - INFO - Excluded HOOKUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,097 - websocket_client - INFO - Excluded MAGICUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,098 - websocket_client - INFO - Excluded HIFIUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,100 - websocket_client - INFO - Excluded PROSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,101 - websocket_client - INFO - Excluded SYNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,102 - websocket_client - INFO - Excluded VIBUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,104 - websocket_client - INFO - Excluded AMBUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,105 - websocket_client - INFO - Excluded USTCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,107 - websocket_client - INFO - Excluded GLMUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,108 - websocket_client - INFO - Excluded QKCUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,110 - websocket_client - INFO - Excluded UFTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,111 - websocket_client - INFO - Excluded IDUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,111 - websocket_client - INFO - Excluded ARBUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,112 - websocket_client - INFO - Excluded LOOMUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,113 - websocket_client - INFO - Excluded OAXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,114 - websocket_client - INFO - Excluded RDNTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,115 - websocket_client - INFO - Excluded EDUUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,116 - websocket_client - INFO - Excluded AERGOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,117 - websocket_client - INFO - Excluded PEPEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,118 - websocket_client - INFO - Excluded FLOKIUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,119 - websocket_client - INFO - Excluded ASTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,120 - websocket_client - INFO - Excluded SNTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,121 - websocket_client - INFO - Excluded COMBOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,121 - websocket_client - INFO - Excluded MAVUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,124 - websocket_client - INFO - Excluded SEIUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,125 - websocket_client - INFO - Excluded ARKUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,127 - websocket_client - INFO - Excluded GFTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,128 - websocket_client - INFO - Excluded IQUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,128 - websocket_client - INFO - Excluded NTRNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,129 - websocket_client - INFO - Excluded MEMEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,131 - websocket_client - INFO - Excluded BEAMXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,131 - websocket_client - INFO - Excluded PIVXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,132 - websocket_client - INFO - Excluded VICUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,133 - websocket_client - INFO - Excluded BLURUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,133 - websocket_client - INFO - Excluded VANRYUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,135 - websocket_client - INFO - Excluded 1000SATSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,135 - websocket_client - INFO - Excluded BONKUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,136 - websocket_client - INFO - Excluded NFPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,137 - websocket_client - INFO - Excluded AIUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,137 - websocket_client - INFO - Excluded XAIUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,138 - websocket_client - INFO - Excluded MANTAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,138 - websocket_client - INFO - Excluded ALTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,139 - websocket_client - INFO - Excluded JUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,140 - websocket_client - INFO - Excluded PYTHUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,141 - websocket_client - INFO - Excluded DYMUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,141 - websocket_client - INFO - Excluded PIXELUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,142 - websocket_client - INFO - Excluded STRKUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,142 - websocket_client - INFO - Excluded PORTALUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,143 - websocket_client - INFO - Excluded PDAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,144 - websocket_client - INFO - Excluded AXLUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,145 - websocket_client - INFO - Excluded AEVOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,145 - websocket_client - INFO - Excluded BOMEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,146 - websocket_client - INFO - Excluded ENAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,147 - websocket_client - INFO - Excluded WUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,147 - websocket_client - INFO - Excluded TNSRUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,148 - websocket_client - INFO - Excluded SAGAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,149 - websocket_client - INFO - Excluded REZUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,150 - websocket_client - INFO - Excluded BBUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,150 - websocket_client - INFO - Excluded NOTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,151 - websocket_client - INFO - Excluded ZKUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,152 - websocket_client - INFO - Excluded LISTAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,152 - websocket_client - INFO - Excluded GUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,154 - websocket_client - INFO - Excluded DOGSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,155 - websocket_client - INFO - Excluded SLFUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,156 - websocket_client - INFO - Excluded POLUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,156 - websocket_client - INFO - Excluded NEIROUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,157 - websocket_client - INFO - Excluded TURBOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,158 - websocket_client - INFO - Excluded 1MBABYDOGEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,159 - websocket_client - INFO - Excluded CATIUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,159 - websocket_client - INFO - Excluded HMSTRUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,160 - websocket_client - INFO - Excluded SCRUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,161 - websocket_client - INFO - Excluded LUMIAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,162 - websocket_client - INFO - Excluded KAIAUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,162 - websocket_client - INFO - Excluded COWUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,163 - websocket_client - INFO - Excluded CETUSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,163 - websocket_client - INFO - Excluded PNUTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,164 - websocket_client - INFO - Excluded ACTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,164 - websocket_client - INFO - Excluded USUALUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,165 - websocket_client - INFO - Excluded THEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,165 - websocket_client - INFO - Excluded ACXUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,166 - websocket_client - INFO - Excluded MOVEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,167 - websocket_client - INFO - Excluded VELODROMEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,168 - websocket_client - INFO - Excluded 1000CATUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,168 - websocket_client - INFO - Excluded PENGUUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,169 - websocket_client - INFO - Excluded BIOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,169 - websocket_client - INFO - Excluded DUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,170 - websocket_client - INFO - Excluded AIXBTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,170 - websocket_client - INFO - Excluded CGPTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,171 - websocket_client - INFO - Excluded COOKIEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,172 - websocket_client - INFO - Excluded SOLVUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,173 - websocket_client - INFO - Excluded ANIMEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,173 - websocket_client - INFO - Excluded 1000CHEEMSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,174 - websocket_client - INFO - Excluded TSTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,175 - websocket_client - INFO - Excluded HEIUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,176 - websocket_client - INFO - Excluded SHELLUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,176 - websocket_client - INFO - Excluded REDUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,177 - websocket_client - INFO - Excluded GPSUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,178 - websocket_client - INFO - Excluded BMTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,179 - websocket_client - INFO - Excluded NILUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,180 - websocket_client - INFO - Excluded PARTIUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,180 - websocket_client - INFO - Excluded MUBARAKUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,181 - websocket_client - INFO - Excluded TUTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,181 - websocket_client - INFO - Excluded BROCCOLI714USDT due to price below 0.5 USDT
+2025-05-17 09:13:05,182 - websocket_client - INFO - Excluded BANANAS31USDT due to price below 0.5 USDT
+2025-05-17 09:13:05,182 - websocket_client - INFO - Excluded GUNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,183 - websocket_client - INFO - Excluded BABYUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,184 - websocket_client - INFO - Excluded BIGTIMEUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,185 - websocket_client - INFO - Excluded KERNELUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,185 - websocket_client - INFO - Excluded WCTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,186 - websocket_client - INFO - Excluded HYPERUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,186 - websocket_client - INFO - Excluded SIGNUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,187 - websocket_client - INFO - Excluded STOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,187 - websocket_client - INFO - Excluded SYRUPUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,188 - websocket_client - INFO - Excluded KMNOUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,189 - websocket_client - INFO - Excluded SXTUSDT due to price below 0.5 USDT
+2025-05-17 09:13:05,189 - websocket_client - INFO - Fetched 195 active USDT trading pairs
+2025-05-17 09:13:09,837 - websocket_client - WARNING - Connection lost for btcusdt@kline_1m, reconnecting...
+2025-05-17 09:13:10,194 - __main__ - INFO - Trading bot started successfully
+2025-05-17 09:13:10,195 - __main__ - INFO - Trading bot running. Press Ctrl+C to stop.
+2025-05-17 09:13:10,195 - __main__ - INFO - Active components: ['websocket', 'indicators', 'ai_model', 'signals']
+2025-05-17 09:13:10,257 - websocket - INFO - Websocket connected
+2025-05-17 09:13:10,258 - websocket_client - INFO - WebSocket connected: btcusdt@kline_1m
+2025-05-17 09:13:10,259 - websocket_client - ERROR - WebSocket error (btcusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:13:10,260 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:13:10,260 - websocket_client - INFO - WebSocket closed (btcusdt@kline_1m): None
+2025-05-17 09:13:15,339 - websocket_client - WARNING - Connection lost for ethusdt@kline_1m, reconnecting...
+2025-05-17 09:13:15,746 - websocket - INFO - Websocket connected
+2025-05-17 09:13:15,747 - websocket_client - INFO - WebSocket connected: ethusdt@kline_1m
+2025-05-17 09:13:15,748 - websocket_client - ERROR - WebSocket error (ethusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:13:15,749 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:13:15,750 - websocket_client - INFO - WebSocket closed (ethusdt@kline_1m): None
+2025-05-17 09:13:20,842 - websocket_client - WARNING - Connection lost for bnbusdt@kline_1m, reconnecting...
+2025-05-17 09:13:21,214 - websocket - INFO - Websocket connected
+2025-05-17 09:13:21,215 - websocket_client - INFO - WebSocket connected: bnbusdt@kline_1m
+2025-05-17 09:13:21,216 - websocket_client - ERROR - WebSocket error (bnbusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:13:21,218 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:13:21,218 - websocket_client - INFO - WebSocket closed (bnbusdt@kline_1m): None
+2025-05-17 09:13:26,345 - websocket_client - WARNING - Connection lost for neousdt@kline_1m, reconnecting...
+2025-05-17 09:13:26,700 - websocket - INFO - Websocket connected
+2025-05-17 09:13:26,701 - websocket_client - INFO - WebSocket connected: neousdt@kline_1m
+2025-05-17 09:13:26,702 - websocket_client - ERROR - WebSocket error (neousdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:13:26,703 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:13:26,703 - websocket_client - INFO - WebSocket closed (neousdt@kline_1m): None
+2025-05-17 09:13:31,847 - websocket_client - WARNING - Connection lost for ltcusdt@kline_1m, reconnecting...
+2025-05-17 09:13:32,258 - websocket - INFO - Websocket connected
+2025-05-17 09:13:32,260 - websocket_client - INFO - WebSocket connected: ltcusdt@kline_1m
+2025-05-17 09:13:32,261 - websocket_client - ERROR - WebSocket error (ltcusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:13:32,262 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:13:32,263 - websocket_client - INFO - WebSocket closed (ltcusdt@kline_1m): None
+2025-05-17 09:13:37,350 - websocket_client - WARNING - Connection lost for qtumusdt@kline_1m, reconnecting...
+2025-05-17 09:13:38,017 - websocket - INFO - Websocket connected
+2025-05-17 09:13:38,018 - websocket_client - INFO - WebSocket connected: qtumusdt@kline_1m
+2025-05-17 09:13:38,019 - websocket_client - ERROR - WebSocket error (qtumusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:13:38,021 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:13:38,021 - websocket_client - INFO - WebSocket closed (qtumusdt@kline_1m): None
+2025-05-17 09:13:40,194 - __main__ - INFO - Processing symbols batch: ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'NEOUSDT', 'LTCUSDT']
+2025-05-17 09:13:40,198 - __main__ - WARNING - No klines data available for BTCUSDT
+2025-05-17 09:13:40,199 - __main__ - WARNING - No klines data available for ETHUSDT
+2025-05-17 09:13:40,200 - __main__ - WARNING - No klines data available for BNBUSDT
+2025-05-17 09:13:40,201 - __main__ - WARNING - No klines data available for NEOUSDT
+2025-05-17 09:13:40,201 - __main__ - WARNING - No klines data available for LTCUSDT
+2025-05-17 09:13:42,853 - websocket_client - WARNING - Connection lost for adausdt@kline_1m, reconnecting...
+2025-05-17 09:13:43,573 - websocket - INFO - Websocket connected
+2025-05-17 09:13:43,575 - websocket_client - INFO - WebSocket connected: adausdt@kline_1m
+2025-05-17 09:13:43,576 - websocket_client - ERROR - WebSocket error (adausdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:13:43,577 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:13:43,577 - websocket_client - INFO - WebSocket closed (adausdt@kline_1m): None
+2025-05-17 09:13:45,202 - __main__ - INFO - Processing symbols batch: ['QTUMUSDT', 'ADAUSDT', 'XRPUSDT', 'EOSUSDT', 'TUSDUSDT']
+2025-05-17 09:13:45,203 - __main__ - WARNING - No klines data available for QTUMUSDT
+2025-05-17 09:13:45,204 - __main__ - WARNING - No klines data available for ADAUSDT
+2025-05-17 09:13:45,204 - __main__ - WARNING - No klines data available for XRPUSDT
+2025-05-17 09:13:45,205 - __main__ - WARNING - No klines data available for EOSUSDT
+2025-05-17 09:13:45,206 - __main__ - WARNING - No klines data available for TUSDUSDT
+2025-05-17 09:13:48,356 - websocket_client - WARNING - Connection lost for xrpusdt@kline_1m, reconnecting...
+2025-05-17 09:13:49,062 - websocket - INFO - Websocket connected
+2025-05-17 09:13:49,063 - websocket_client - INFO - WebSocket connected: xrpusdt@kline_1m
+2025-05-17 09:13:49,064 - websocket_client - ERROR - WebSocket error (xrpusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:13:49,065 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:13:49,066 - websocket_client - INFO - WebSocket closed (xrpusdt@kline_1m): None
+2025-05-17 09:13:50,206 - __main__ - INFO - Processing symbols batch: ['ETCUSDT', 'USDCUSDT', 'LINKUSDT', 'WAVESUSDT', 'FETUSDT']
+2025-05-17 09:13:50,207 - __main__ - WARNING - No klines data available for ETCUSDT
+2025-05-17 09:13:50,207 - __main__ - WARNING - No klines data available for USDCUSDT
+2025-05-17 09:13:50,208 - __main__ - WARNING - No klines data available for LINKUSDT
+2025-05-17 09:13:50,209 - __main__ - WARNING - No klines data available for WAVESUSDT
+2025-05-17 09:13:50,209 - __main__ - WARNING - No klines data available for FETUSDT
+2025-05-17 09:13:53,858 - websocket_client - WARNING - Connection lost for eosusdt@kline_1m, reconnecting...
+2025-05-17 09:13:54,578 - websocket - INFO - Websocket connected
+2025-05-17 09:13:54,579 - websocket_client - INFO - WebSocket connected: eosusdt@kline_1m
+2025-05-17 09:13:54,580 - websocket_client - ERROR - WebSocket error (eosusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:13:54,582 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:13:54,582 - websocket_client - INFO - WebSocket closed (eosusdt@kline_1m): None
+2025-05-17 09:13:55,210 - __main__ - INFO - Processing symbols batch: ['XMRUSDT', 'ZECUSDT', 'DASHUSDT', 'THETAUSDT', 'ATOMUSDT']
+2025-05-17 09:13:55,211 - __main__ - WARNING - No klines data available for XMRUSDT
+2025-05-17 09:13:55,211 - __main__ - WARNING - No klines data available for ZECUSDT
+2025-05-17 09:13:55,212 - __main__ - WARNING - No klines data available for DASHUSDT
+2025-05-17 09:13:55,213 - __main__ - WARNING - No klines data available for THETAUSDT
+2025-05-17 09:13:55,214 - __main__ - WARNING - No klines data available for ATOMUSDT
+2025-05-17 09:13:59,361 - websocket_client - WARNING - Connection lost for tusdusdt@kline_1m, reconnecting...
+2025-05-17 09:14:00,025 - websocket - INFO - Websocket connected
+2025-05-17 09:14:00,026 - websocket_client - INFO - WebSocket connected: tusdusdt@kline_1m
+2025-05-17 09:14:00,026 - websocket_client - ERROR - WebSocket error (tusdusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:14:00,027 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:14:00,028 - websocket_client - INFO - WebSocket closed (tusdusdt@kline_1m): None
+2025-05-17 09:14:04,864 - websocket_client - WARNING - Connection lost for etcusdt@kline_1m, reconnecting...
+2025-05-17 09:14:05,544 - websocket - INFO - Websocket connected
+2025-05-17 09:14:05,546 - websocket_client - INFO - WebSocket connected: etcusdt@kline_1m
+2025-05-17 09:14:05,547 - websocket_client - ERROR - WebSocket error (etcusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:14:05,548 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:14:05,548 - websocket_client - INFO - WebSocket closed (etcusdt@kline_1m): None
+2025-05-17 09:14:10,366 - websocket_client - WARNING - Connection lost for usdcusdt@kline_1m, reconnecting...
+2025-05-17 09:14:11,007 - websocket - INFO - Websocket connected
+2025-05-17 09:14:11,008 - websocket_client - INFO - WebSocket connected: usdcusdt@kline_1m
+2025-05-17 09:14:11,009 - websocket_client - ERROR - WebSocket error (usdcusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:14:11,010 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:14:11,011 - websocket_client - INFO - WebSocket closed (usdcusdt@kline_1m): None
+2025-05-17 09:14:15,869 - websocket_client - WARNING - Connection lost for linkusdt@kline_1m, reconnecting...
+2025-05-17 09:14:16,523 - websocket - INFO - Websocket connected
+2025-05-17 09:14:16,524 - websocket_client - INFO - WebSocket connected: linkusdt@kline_1m
+2025-05-17 09:14:16,525 - websocket_client - ERROR - WebSocket error (linkusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:14:16,526 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:14:16,527 - websocket_client - INFO - WebSocket closed (linkusdt@kline_1m): None
+2025-05-17 09:14:21,372 - websocket_client - WARNING - Connection lost for wavesusdt@kline_1m, reconnecting...
+2025-05-17 09:14:22,027 - websocket - INFO - Websocket connected
+2025-05-17 09:14:22,029 - websocket_client - INFO - WebSocket connected: wavesusdt@kline_1m
+2025-05-17 09:14:22,029 - websocket_client - ERROR - WebSocket error (wavesusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:14:22,031 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:14:22,031 - websocket_client - INFO - WebSocket closed (wavesusdt@kline_1m): None
+2025-05-17 09:14:26,874 - websocket_client - WARNING - Connection lost for fetusdt@kline_1m, reconnecting...
+2025-05-17 09:14:27,548 - websocket - INFO - Websocket connected
+2025-05-17 09:14:27,549 - websocket_client - INFO - WebSocket connected: fetusdt@kline_1m
+2025-05-17 09:14:27,550 - websocket_client - ERROR - WebSocket error (fetusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:14:27,552 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:14:27,552 - websocket_client - INFO - WebSocket closed (fetusdt@kline_1m): None
+2025-05-17 09:14:32,377 - websocket_client - WARNING - Connection lost for xmrusdt@kline_1m, reconnecting...
+2025-05-17 09:14:33,056 - websocket - INFO - Websocket connected
+2025-05-17 09:14:33,058 - websocket_client - INFO - WebSocket connected: xmrusdt@kline_1m
+2025-05-17 09:14:33,059 - websocket_client - ERROR - WebSocket error (xmrusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:14:33,060 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:14:33,061 - websocket_client - INFO - WebSocket closed (xmrusdt@kline_1m): None
+2025-05-17 09:14:37,880 - websocket_client - WARNING - Connection lost for zecusdt@kline_1m, reconnecting...
+2025-05-17 09:14:38,585 - websocket - INFO - Websocket connected
+2025-05-17 09:14:38,587 - websocket_client - INFO - WebSocket connected: zecusdt@kline_1m
+2025-05-17 09:14:38,588 - websocket_client - ERROR - WebSocket error (zecusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:14:38,589 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:14:38,590 - websocket_client - INFO - WebSocket closed (zecusdt@kline_1m): None
+2025-05-17 09:14:43,383 - websocket_client - WARNING - Connection lost for dashusdt@kline_1m, reconnecting...
+2025-05-17 09:14:44,050 - websocket - INFO - Websocket connected
+2025-05-17 09:14:44,051 - websocket_client - INFO - WebSocket connected: dashusdt@kline_1m
+2025-05-17 09:14:44,052 - websocket_client - ERROR - WebSocket error (dashusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:14:44,054 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:14:44,054 - websocket_client - INFO - WebSocket closed (dashusdt@kline_1m): None
+2025-05-17 09:14:48,885 - websocket_client - WARNING - Connection lost for thetausdt@kline_1m, reconnecting...
+2025-05-17 09:14:49,546 - websocket - INFO - Websocket connected
+2025-05-17 09:14:49,547 - websocket_client - INFO - WebSocket connected: thetausdt@kline_1m
+2025-05-17 09:14:49,548 - websocket_client - ERROR - WebSocket error (thetausdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:14:49,548 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:14:49,549 - websocket_client - INFO - WebSocket closed (thetausdt@kline_1m): None
+2025-05-17 09:14:54,427 - websocket_client - WARNING - Connection lost for atomusdt@kline_1m, reconnecting...
+2025-05-17 09:14:55,185 - websocket - INFO - Websocket connected
+2025-05-17 09:14:55,200 - websocket_client - INFO - WebSocket connected: atomusdt@kline_1m
+2025-05-17 09:14:55,200 - websocket_client - ERROR - WebSocket error (atomusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:14:55,219 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:14:55,219 - websocket_client - INFO - WebSocket closed (atomusdt@kline_1m): None
+2025-05-17 09:14:59,931 - websocket_client - WARNING - Connection lost for ftmusdt@kline_1m, reconnecting...
+2025-05-17 09:15:00,216 - __main__ - INFO - Processing symbols batch: ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'NEOUSDT', 'LTCUSDT']
+2025-05-17 09:15:00,216 - __main__ - WARNING - No klines data available for BTCUSDT
+2025-05-17 09:15:00,217 - __main__ - WARNING - No klines data available for ETHUSDT
+2025-05-17 09:15:00,217 - __main__ - WARNING - No klines data available for BNBUSDT
+2025-05-17 09:15:00,219 - __main__ - WARNING - No klines data available for NEOUSDT
+2025-05-17 09:15:00,220 - __main__ - WARNING - No klines data available for LTCUSDT
+2025-05-17 09:15:00,696 - websocket - INFO - Websocket connected
+2025-05-17 09:15:00,697 - websocket_client - INFO - WebSocket connected: ftmusdt@kline_1m
+2025-05-17 09:15:00,697 - websocket_client - ERROR - WebSocket error (ftmusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:15:00,698 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:15:00,698 - websocket_client - INFO - WebSocket closed (ftmusdt@kline_1m): None
+2025-05-17 09:15:05,258 - __main__ - INFO - Processing symbols batch: ['QTUMUSDT', 'ADAUSDT', 'XRPUSDT', 'EOSUSDT', 'TUSDUSDT']
+2025-05-17 09:15:05,259 - __main__ - WARNING - No klines data available for QTUMUSDT
+2025-05-17 09:15:05,260 - __main__ - WARNING - No klines data available for ADAUSDT
+2025-05-17 09:15:05,261 - __main__ - WARNING - No klines data available for XRPUSDT
+2025-05-17 09:15:05,261 - __main__ - WARNING - No klines data available for EOSUSDT
+2025-05-17 09:15:05,262 - __main__ - WARNING - No klines data available for TUSDUSDT
+2025-05-17 09:15:05,433 - websocket_client - WARNING - Connection lost for cocosusdt@kline_1m, reconnecting...
+2025-05-17 09:15:06,103 - websocket - INFO - Websocket connected
+2025-05-17 09:15:06,104 - websocket_client - INFO - WebSocket connected: cocosusdt@kline_1m
+2025-05-17 09:15:06,104 - websocket_client - ERROR - WebSocket error (cocosusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:15:06,105 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:15:06,105 - websocket_client - INFO - WebSocket closed (cocosusdt@kline_1m): None
+2025-05-17 09:15:10,263 - __main__ - INFO - Processing symbols batch: ['ETCUSDT', 'USDCUSDT', 'LINKUSDT', 'WAVESUSDT', 'FETUSDT']
+2025-05-17 09:15:10,264 - __main__ - WARNING - No klines data available for ETCUSDT
+2025-05-17 09:15:10,265 - __main__ - WARNING - No klines data available for USDCUSDT
+2025-05-17 09:15:10,266 - __main__ - WARNING - No klines data available for LINKUSDT
+2025-05-17 09:15:10,267 - __main__ - WARNING - No klines data available for WAVESUSDT
+2025-05-17 09:15:10,268 - __main__ - WARNING - No klines data available for FETUSDT
+2025-05-17 09:15:10,936 - websocket_client - WARNING - Connection lost for mtlusdt@kline_1m, reconnecting...
+2025-05-17 09:15:11,660 - websocket - INFO - Websocket connected
+2025-05-17 09:15:11,662 - websocket_client - INFO - WebSocket connected: mtlusdt@kline_1m
+2025-05-17 09:15:11,663 - websocket_client - ERROR - WebSocket error (mtlusdt@kline_1m): 'NoneType' object has no attribute 'sock'
+2025-05-17 09:15:11,664 - websocket - INFO - 'NoneType' object has no attribute 'sock' - reconnect
+2025-05-17 09:15:11,665 - websocket_client - INFO - WebSocket closed (mtlusdt@kline_1m): None
+2025-05-17 09:15:15,269 - __main__ - INFO - Processing symbols batch: ['XMRUSDT', 'ZECUSDT', 'DASHUSDT', 'THETAUSDT', 'ATOMUSDT']
+2025-05-17 09:15:15,270 - __main__ - WARNING - No klines data available for XMRUSDT
+2025-05-17 09:15:15,270 - __main__ - WARNING - No klines data available for ZECUSDT
+2025-05-17 09:15:15,271 - __main__ - WARNING - No klines data available for DASHUSDT
+2025-05-17 09:15:15,271 - __main__ - WARNING - No klines data available for THETAUSDT
+2025-05-17 09:15:15,273 - __main__ - WARNING - No klines data available for ATOMUSDT
+2025-05-17 09:15:15,604 - __main__ - INFO - Shutdown signal received
+2025-05-17 09:15:15,605 - __main__ - INFO - Stopping trading bot
+2025-05-17 09:15:15,605 - websocket_client - INFO - Stopping WebSocket client
+2025-05-17 09:15:15,606 - websocket_client - INFO - WebSocket client stopped
+2025-05-17 09:36:13,295 - __main__ - WARNING - No Telegram token found in environment variables
+2025-05-17 09:36:13,296 - __main__ - INFO - Allowed Telegram users: []
+2025-05-17 09:36:13,344 - websocket_client - INFO - Database initialized for market data
+2025-05-17 09:36:13,344 - websocket_client - INFO - Binance WebSocket client initialized
+2025-05-17 09:36:13,345 - __main__ - ERROR - Error initializing components: expected str, bytes or os.PathLike object, not DatabaseManager
+Traceback (most recent call last):
+  File "C:\python_project\AI_binance_screen_server\main_enhanced.py", line 58, in _init_components
+    self.components['indicators'] = TechnicalIndicators(self.db_manager)
+                                    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\python_project\AI_binance_screen_server\indicators.py", line 20, in __init__
+    os.makedirs(os.path.join(db_path, 'technical_analysis'), exist_ok=True)
+                ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen ntpath>", line 100, in join
+TypeError: expected str, bytes or os.PathLike object, not DatabaseManager
+2025-05-17 09:42:22,392 - __main__ - WARNING - No Telegram token found in environment variables
+2025-05-17 09:42:22,393 - __main__ - INFO - Allowed Telegram users: []
+2025-05-17 09:42:22,394 - __main__ - ERROR - Error initializing components: BinanceWebSocketClient.__init__() got an unexpected keyword argument 'db_path'
+Traceback (most recent call last):
+  File "C:\python_project\AI_binance_screen_server\main_enhanced.py", line 52, in _init_components
+    self.components['websocket'] = BinanceWebSocketClient(
+                                   ~~~~~~~~~~~~~~~~~~~~~~^
+        db_manager=self.db_manager,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        db_path=self.db_path
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: BinanceWebSocketClient.__init__() got an unexpected keyword argument 'db_path'
+2025-05-17 09:44:45,251 - __main__ - WARNING - No Telegram token found in environment variables
+2025-05-17 09:44:45,252 - __main__ - INFO - Allowed Telegram users: []
+2025-05-17 09:44:45,266 - websocket_client - INFO - Database initialized for market data
+2025-05-17 09:44:45,267 - websocket_client - INFO - Binance WebSocket client initialized
+2025-05-17 09:44:45,268 - indicators - ERROR - Database manager not provided to TechnicalIndicators
+2025-05-17 09:44:45,268 - indicators - INFO - Technical indicators module initialized
+2025-05-17 09:44:45,268 - ai_model_enhanced - ERROR - Database manager not provided to EnhancedAIModel
+2025-05-17 09:44:45,268 - ai_model_enhanced - INFO - Enhanced AI model initialized with multi-model support
+2025-05-17 09:44:45,269 - signal_generator - ERROR - Database manager not provided to SignalGenerator
+2025-05-17 09:44:45,269 - signal_generator - INFO - Signal generator initialized
+2025-05-17 09:44:45,269 - __main__ - WARNING - No valid Telegram token provided, Telegram notifications will be disabled
+2025-05-17 09:44:45,269 - __main__ - INFO - All components initialized successfully
+2025-05-17 09:44:45,269 - __main__ - INFO - Trading bot initialized with enhanced components
+2025-05-17 09:44:45,270 - __main__ - INFO - Starting trading bot
+2025-05-17 09:44:50,442 - websocket_client - INFO - Excluded IOTAUSDT due to price below 0.5 USDT
+2025-05-17 09:44:50,830 - websocket_client - INFO - Excluded XLMUSDT due to price below 0.5 USDT
+2025-05-17 09:44:51,201 - websocket_client - INFO - Excluded ONTUSDT due to price below 0.5 USDT
+2025-05-17 09:44:51,568 - websocket_client - INFO - Excluded TRXUSDT due to price below 0.5 USDT
+2025-05-17 09:44:52,315 - websocket_client - INFO - Excluded ICXUSDT due to price below 0.5 USDT
+2025-05-17 09:44:52,690 - websocket_client - INFO - Excluded VETUSDT due to price below 0.5 USDT
+2025-05-17 09:44:53,810 - websocket_client - INFO - Excluded ONGUSDT due to price below 0.5 USDT
+2025-05-17 09:44:54,192 - websocket_client - INFO - Excluded HOTUSDT due to price below 0.5 USDT
+2025-05-17 09:44:54,576 - websocket_client - INFO - Excluded ZILUSDT due to price below 0.5 USDT
+2025-05-17 09:44:54,959 - websocket_client - INFO - Excluded ZRXUSDT due to price below 0.5 USDT
+2025-05-17 09:44:55,701 - websocket_client - INFO - Excluded BATUSDT due to price below 0.5 USDT
+2025-05-17 09:44:56,432 - websocket_client - INFO - Excluded IOSTUSDT due to price below 0.5 USDT
+2025-05-17 09:44:56,797 - websocket_client - INFO - Excluded CELRUSDT due to price below 0.5 USDT
+2025-05-17 09:44:57,945 - websocket_client - INFO - Excluded ENJUSDT due to price below 0.5 USDT
+2025-05-17 09:44:58,673 - websocket_client - INFO - Excluded TFUELUSDT due to price below 0.5 USDT
+2025-05-17 09:44:59,068 - websocket_client - INFO - Excluded ONEUSDT due to price below 0.5 USDT
+2025-05-17 09:44:59,453 - websocket_client - INFO - Excluded ALGOUSDT due to price below 0.5 USDT
+2025-05-17 09:44:59,835 - websocket_client - INFO - Excluded DOGEUSDT due to price below 0.5 USDT
+2025-05-17 09:45:00,216 - websocket_client - INFO - Excluded DUSKUSDT due to price below 0.5 USDT
+2025-05-17 09:45:00,604 - websocket_client - INFO - Excluded ANKRUSDT due to price below 0.5 USDT
+2025-05-17 09:45:00,988 - websocket_client - INFO - Excluded WINUSDT due to price below 0.5 USDT
+2025-05-17 09:45:01,371 - websocket_client - INFO - Excluded COSUSDT due to price below 0.5 USDT
+2025-05-17 09:45:02,104 - websocket_client - INFO - Excluded DENTUSDT due to price below 0.5 USDT
+2025-05-17 09:45:02,491 - websocket_client - INFO - Excluded WANUSDT due to price below 0.5 USDT
+2025-05-17 09:45:02,853 - websocket_client - INFO - Excluded FUNUSDT due to price below 0.5 USDT
+2025-05-17 09:45:03,225 - websocket_client - INFO - Excluded CVCUSDT due to price below 0.5 USDT
+2025-05-17 09:45:03,592 - websocket_client - INFO - Excluded CHZUSDT due to price below 0.5 USDT
+2025-05-17 09:45:04,735 - websocket_client - INFO - Excluded RVNUSDT due to price below 0.5 USDT
+2025-05-17 09:45:05,111 - websocket_client - INFO - Excluded HBARUSDT due to price below 0.5 USDT
+2025-05-17 09:45:05,479 - websocket_client - INFO - Excluded NKNUSDT due to price below 0.5 USDT
+2025-05-17 09:45:06,238 - websocket_client - INFO - Excluded KAVAUSDT due to price below 0.5 USDT
+2025-05-17 09:45:06,613 - websocket_client - INFO - Excluded ARPAUSDT due to price below 0.5 USDT
+2025-05-17 09:45:06,989 - websocket_client - INFO - Excluded IOTXUSDT due to price below 0.5 USDT
+2025-05-17 09:45:08,905 - websocket_client - INFO - Excluded OGNUSDT due to price below 0.5 USDT
+2025-05-17 09:45:10,023 - websocket_client - INFO - Excluded LTOUSDT due to price below 0.5 USDT
+2025-05-17 09:45:10,396 - websocket_client - INFO - Excluded MBLUSDT due to price below 0.5 USDT
+2025-05-17 09:45:10,756 - websocket_client - INFO - Excluded COTIUSDT due to price below 0.5 USDT
+2025-05-17 09:45:11,134 - websocket_client - INFO - Excluded STPTUSDT due to price below 0.5 USDT
+2025-05-17 09:45:11,490 - websocket_client - INFO - Excluded DATAUSDT due to price below 0.5 USDT
+2025-05-17 09:45:12,237 - websocket_client - INFO - Excluded CTSIUSDT due to price below 0.5 USDT
+2025-05-17 09:45:12,616 - websocket_client - INFO - Excluded HIVEUSDT due to price below 0.5 USDT
+2025-05-17 09:45:12,981 - websocket_client - INFO - Excluded CHRUSDT due to price below 0.5 USDT
+2025-05-17 09:45:13,352 - websocket_client - INFO - Excluded ARDRUSDT due to price below 0.5 USDT
+2025-05-17 09:45:13,713 - websocket_client - INFO - Excluded MDTUSDT due to price below 0.5 USDT
+2025-05-17 09:45:14,093 - websocket_client - INFO - Excluded KNCUSDT due to price below 0.5 USDT
+2025-05-17 09:45:14,493 - websocket_client - INFO - Excluded LRCUSDT due to price below 0.5 USDT
+2025-05-17 09:45:15,230 - websocket_client - INFO - Excluded SCUSDT due to price below 0.5 USDT
+2025-05-17 09:45:16,346 - websocket_client - INFO - Excluded VTHOUSDT due to price below 0.5 USDT
+2025-05-17 09:45:16,711 - websocket_client - INFO - Excluded DGBUSDT due to price below 0.5 USDT
+2025-05-17 09:45:17,068 - websocket_client - INFO - Excluded SXPUSDT due to price below 0.5 USDT
+2025-05-17 09:45:18,181 - websocket_client - INFO - Excluded STORJUSDT due to price below 0.5 USDT
+2025-05-17 09:45:18,559 - websocket_client - INFO - Excluded MANAUSDT due to price below 0.5 USDT
+2025-05-17 09:45:19,295 - websocket_client - INFO - Excluded KMDUSDT due to price below 0.5 USDT
+2025-05-17 09:45:19,657 - websocket_client - INFO - Excluded JSTUSDT due to price below 0.5 USDT
+2025-05-17 09:45:20,432 - websocket_client - INFO - Excluded SANDUSDT due to price below 0.5 USDT
+2025-05-17 09:45:21,559 - websocket_client - INFO - Excluded LUNAUSDT due to price below 0.5 USDT
+2025-05-17 09:45:21,946 - websocket_client - INFO - Excluded RSRUSDT due to price below 0.5 USDT
+2025-05-17 09:45:24,171 - websocket_client - INFO - Excluded DIAUSDT due to price below 0.5 USDT
+2025-05-17 09:45:24,913 - websocket_client - INFO - Excluded FIOUSDT due to price below 0.5 USDT
+2025-05-17 09:45:25,652 - websocket_client - INFO - Excluded BELUSDT due to price below 0.5 USDT
+2025-05-17 09:45:26,399 - websocket_client - INFO - Excluded OXTUSDT due to price below 0.5 USDT
+2025-05-17 09:45:26,772 - websocket_client - INFO - Excluded SUNUSDT due to price below 0.5 USDT
+2025-05-17 09:45:27,511 - websocket_client - INFO - Excluded FLMUSDT due to price below 0.5 USDT
+2025-05-17 09:45:27,879 - websocket_client - INFO - Excluded UTKUSDT due to price below 0.5 USDT
+2025-05-17 09:45:28,606 - websocket_client - INFO - Excluded ALPHAUSDT due to price below 0.5 USDT
+2025-05-17 09:45:30,494 - websocket_client - INFO - Excluded AUDIOUSDT due to price below 0.5 USDT
+2025-05-17 09:45:30,866 - websocket_client - INFO - Excluded CTKUSDT due to price below 0.5 USDT
+2025-05-17 09:45:31,631 - websocket_client - INFO - Excluded STRAXUSDT due to price below 0.5 USDT
+2025-05-17 09:45:32,014 - websocket_client - INFO - Excluded ROSEUSDT due to price below 0.5 USDT
+2025-05-17 09:45:32,747 - websocket_client - INFO - Excluded SKLUSDT due to price below 0.5 USDT
+2025-05-17 09:45:33,115 - websocket_client - INFO - Excluded GRTUSDT due to price below 0.5 USDT
+2025-05-17 09:45:34,192 - websocket_client - INFO - Excluded 1INCHUSDT due to price below 0.5 USDT
+2025-05-17 09:45:35,682 - websocket_client - INFO - Excluded CELOUSDT due to price below 0.5 USDT
+2025-05-17 09:45:36,054 - websocket_client - INFO - Excluded RIFUSDT due to price below 0.5 USDT
+2025-05-17 09:45:36,428 - websocket_client - INFO - Excluded TRUUSDT due to price below 0.5 USDT
+2025-05-17 09:45:36,819 - websocket_client - INFO - Excluded CKBUSDT due to price below 0.5 USDT
+2025-05-17 09:45:37,946 - websocket_client - INFO - Excluded DODOUSDT due to price below 0.5 USDT
+2025-05-17 09:45:39,061 - websocket_client - INFO - Excluded FISUSDT due to price below 0.5 USDT
+2025-05-17 09:45:39,440 - websocket_client - INFO - Excluded OMUSDT due to price below 0.5 USDT
+2025-05-17 09:45:39,808 - websocket_client - INFO - Excluded PONDUSDT due to price below 0.5 USDT
+2025-05-17 09:45:40,575 - websocket_client - INFO - Excluded ALICEUSDT due to price below 0.5 USDT
+2025-05-17 09:45:40,927 - websocket_client - INFO - Excluded PERPUSDT due to price below 0.5 USDT
+2025-05-17 09:45:41,679 - websocket_client - INFO - Excluded CFXUSDT due to price below 0.5 USDT
+2025-05-17 09:45:42,048 - websocket_client - INFO - Excluded TKOUSDT due to price below 0.5 USDT
+2025-05-17 09:45:42,516 - websocket_client - INFO - Excluded PUNDIXUSDT due to price below 0.5 USDT
+2025-05-17 09:45:42,878 - websocket_client - INFO - Excluded TLMUSDT due to price below 0.5 USDT
+2025-05-17 09:45:43,964 - websocket_client - INFO - Excluded BAKEUSDT due to price below 0.5 USDT
+2025-05-17 09:45:44,346 - websocket_client - INFO - Excluded SLPUSDT due to price below 0.5 USDT
+2025-05-17 09:45:44,733 - websocket_client - INFO - Excluded SHIBUSDT due to price below 0.5 USDT
+2025-05-17 09:45:46,715 - websocket_client - INFO - Excluded XVGUSDT due to price below 0.5 USDT
+2025-05-17 09:45:47,076 - websocket_client - INFO - Excluded ATAUSDT due to price below 0.5 USDT
+2025-05-17 09:45:47,441 - websocket_client - INFO - Excluded GTCUSDT due to price below 0.5 USDT
+2025-05-17 09:45:47,830 - websocket_client - INFO - Excluded PHAUSDT due to price below 0.5 USDT
+2025-05-17 09:45:48,946 - websocket_client - INFO - Excluded C98USDT due to price below 0.5 USDT
+2025-05-17 09:45:49,680 - websocket_client - INFO - Excluded FLOWUSDT due to price below 0.5 USDT
+2025-05-17 09:45:50,027 - websocket_client - INFO - Excluded MINAUSDT due to price below 0.5 USDT
+2025-05-17 09:45:51,134 - websocket_client - INFO - Excluded QUICKUSDT due to price below 0.5 USDT
+2025-05-17 09:45:51,534 - websocket_client - INFO - Excluded MBOXUSDT due to price below 0.5 USDT
+2025-05-17 09:45:51,886 - websocket_client - INFO - Excluded REQUSDT due to price below 0.5 USDT
+2025-05-17 09:45:52,664 - websocket_client - INFO - Excluded WAXPUSDT due to price below 0.5 USDT
+2025-05-17 09:45:53,438 - websocket_client - INFO - Excluded XECUSDT due to price below 0.5 USDT
+2025-05-17 09:45:54,205 - websocket_client - INFO - Excluded IDEXUSDT due to price below 0.5 USDT
+2025-05-17 09:45:54,973 - websocket_client - INFO - Excluded GALAUSDT due to price below 0.5 USDT
+2025-05-17 09:45:55,710 - websocket_client - INFO - Excluded YGGUSDT due to price below 0.5 USDT
+2025-05-17 09:45:56,076 - websocket_client - INFO - Excluded SYSUSDT due to price below 0.5 USDT
+2025-05-17 09:45:56,450 - websocket_client - INFO - Excluded DFUSDT due to price below 0.5 USDT
+2025-05-17 09:45:56,828 - websocket_client - INFO - Excluded FIDAUSDT due to price below 0.5 USDT
+2025-05-17 09:45:57,920 - websocket_client - INFO - Excluded RAREUSDT due to price below 0.5 USDT
+2025-05-17 09:45:58,663 - websocket_client - INFO - Excluded CHESSUSDT due to price below 0.5 USDT
+2025-05-17 09:45:59,031 - websocket_client - INFO - Excluded ADXUSDT due to price below 0.5 USDT
+2025-05-17 09:46:00,894 - websocket_client - INFO - Excluded QIUSDT due to price below 0.5 USDT
+2025-05-17 09:46:01,651 - websocket_client - INFO - Excluded POWRUSDT due to price below 0.5 USDT
+2025-05-17 09:46:02,032 - websocket_client - INFO - Excluded JASMYUSDT due to price below 0.5 USDT
+2025-05-17 09:46:02,413 - websocket_client - INFO - Excluded AMPUSDT due to price below 0.5 USDT
+2025-05-17 09:46:03,891 - websocket_client - INFO - Excluded BICOUSDT due to price below 0.5 USDT
+2025-05-17 09:46:04,261 - websocket_client - INFO - Excluded FLUXUSDT due to price below 0.5 USDT
+2025-05-17 09:46:04,991 - websocket_client - INFO - Excluded VOXELUSDT due to price below 0.5 USDT
+2025-05-17 09:46:06,092 - websocket_client - INFO - Excluded PEOPLEUSDT due to price below 0.5 USDT
+2025-05-17 09:46:06,452 - websocket_client - INFO - Excluded SPELLUSDT due to price below 0.5 USDT
+2025-05-17 09:46:06,825 - websocket_client - INFO - Excluded JOEUSDT due to price below 0.5 USDT
+2025-05-17 09:46:07,215 - websocket_client - INFO - Excluded ACHUSDT due to price below 0.5 USDT
+2025-05-17 09:46:07,966 - websocket_client - INFO - Excluded GLMRUSDT due to price below 0.5 USDT
+2025-05-17 09:46:08,307 - websocket_client - INFO - Excluded LOKAUSDT due to price below 0.5 USDT
+2025-05-17 09:46:08,677 - websocket_client - INFO - Excluded SCRTUSDT due to price below 0.5 USDT
+2025-05-17 09:46:09,417 - websocket_client - INFO - Excluded BTTCUSDT due to price below 0.5 USDT
+2025-05-17 09:46:09,789 - websocket_client - INFO - Excluded ACAUSDT due to price below 0.5 USDT
+2025-05-17 09:46:10,541 - websocket_client - INFO - Excluded WOOUSDT due to price below 0.5 USDT
+2025-05-17 09:46:11,304 - websocket_client - INFO - Excluded TUSDT due to price below 0.5 USDT
+2025-05-17 09:46:11,706 - websocket_client - INFO - Excluded ASTRUSDT due to price below 0.5 USDT
+2025-05-17 09:46:12,061 - websocket_client - INFO - Excluded GMTUSDT due to price below 0.5 USDT
+2025-05-17 09:46:13,214 - websocket_client - INFO - Excluded BSWUSDT due to price below 0.5 USDT
+2025-05-17 09:46:13,950 - websocket_client - INFO - Excluded STEEMUSDT due to price below 0.5 USDT
+2025-05-17 09:46:14,714 - websocket_client - INFO - Excluded REIUSDT due to price below 0.5 USDT
+2025-05-17 09:46:15,830 - websocket_client - INFO - Excluded LEVERUSDT due to price below 0.5 USDT
+2025-05-17 09:46:16,186 - websocket_client - INFO - Excluded STGUSDT due to price below 0.5 USDT
+2025-05-17 09:46:16,558 - websocket_client - INFO - Excluded LUNCUSDT due to price below 0.5 USDT
+2025-05-17 09:46:17,308 - websocket_client - INFO - Excluded POLYXUSDT due to price below 0.5 USDT
+2025-05-17 09:46:18,031 - websocket_client - INFO - Excluded OSMOUSDT due to price below 0.5 USDT
+2025-05-17 09:46:18,398 - websocket_client - INFO - Excluded HFTUSDT due to price below 0.5 USDT
+2025-05-17 09:46:19,134 - websocket_client - INFO - Excluded HOOKUSDT due to price below 0.5 USDT
+2025-05-17 09:46:19,481 - websocket_client - INFO - Excluded MAGICUSDT due to price below 0.5 USDT
+2025-05-17 09:46:19,825 - websocket_client - INFO - Excluded HIFIUSDT due to price below 0.5 USDT
+2025-05-17 09:46:20,912 - websocket_client - INFO - Excluded SYNUSDT due to price below 0.5 USDT
+2025-05-17 09:46:22,023 - websocket_client - INFO - Excluded USTCUSDT due to price below 0.5 USDT
+2025-05-17 09:46:22,761 - websocket_client - INFO - Excluded GLMUSDT due to price below 0.5 USDT
+2025-05-17 09:46:23,496 - websocket_client - INFO - Excluded QKCUSDT due to price below 0.5 USDT
+2025-05-17 09:46:23,871 - websocket_client - INFO - Excluded IDUSDT due to price below 0.5 USDT
+2025-05-17 09:46:24,254 - websocket_client - INFO - Excluded ARBUSDT due to price below 0.5 USDT
+2025-05-17 09:46:24,640 - websocket_client - INFO - Excluded RDNTUSDT due to price below 0.5 USDT
+2025-05-17 09:46:25,393 - websocket_client - INFO - Excluded EDUUSDT due to price below 0.5 USDT
+2025-05-17 09:46:26,212 - websocket_client - INFO - Excluded PEPEUSDT due to price below 0.5 USDT
+2025-05-17 09:46:26,591 - websocket_client - INFO - Excluded FLOKIUSDT due to price below 0.5 USDT
+2025-05-17 09:46:26,976 - websocket_client - INFO - Excluded MAVUSDT due to price below 0.5 USDT
+2025-05-17 09:46:29,274 - websocket_client - INFO - Excluded SEIUSDT due to price below 0.5 USDT
+2025-05-17 09:46:30,002 - websocket_client - INFO - Excluded ARKUSDT due to price below 0.5 USDT
+2025-05-17 09:46:30,368 - websocket_client - INFO - Excluded IQUSDT due to price below 0.5 USDT
+2025-05-17 09:46:30,744 - websocket_client - INFO - Excluded NTRNUSDT due to price below 0.5 USDT
+2025-05-17 09:46:31,495 - websocket_client - INFO - Excluded MEMEUSDT due to price below 0.5 USDT
+2025-05-17 09:46:32,265 - websocket_client - INFO - Excluded BEAMXUSDT due to price below 0.5 USDT
+2025-05-17 09:46:32,634 - websocket_client - INFO - Excluded PIVXUSDT due to price below 0.5 USDT
+2025-05-19 13:36:39,634 - __main__ - WARNING - No Telegram token found in environment variables
+2025-05-19 13:36:39,635 - __main__ - INFO - Allowed Telegram users: []
+2025-05-19 13:36:39,653 - websocket_client - INFO - Database initialized for market data
+2025-05-19 13:36:39,653 - websocket_client - INFO - Binance WebSocket client initialized
+2025-05-19 13:36:39,654 - indicators - ERROR - Database manager not provided to TechnicalIndicators
+2025-05-19 13:36:39,655 - indicators - INFO - Technical indicators module initialized
+2025-05-19 13:36:39,655 - ai_model_enhanced - ERROR - Database manager not provided to EnhancedAIModel
+2025-05-19 13:36:39,655 - ai_model_enhanced - INFO - Enhanced AI model initialized with multi-model support
+2025-05-19 13:36:39,655 - signal_generator - ERROR - Database manager not provided to SignalGenerator
+2025-05-19 13:36:39,656 - signal_generator - INFO - Signal generator initialized
+2025-05-19 13:36:39,656 - __main__ - WARNING - No valid Telegram token provided, Telegram notifications will be disabled
+2025-05-19 13:36:39,656 - __main__ - INFO - All components initialized successfully
+2025-05-19 13:36:39,656 - __main__ - INFO - Trading bot initialized with enhanced components
+2025-05-19 13:36:39,657 - __main__ - INFO - Starting trading bot
+2025-05-19 13:36:46,755 - websocket_client - INFO - Excluded IOTAUSDT due to price below 0.5 USDT
+2025-05-19 13:36:47,093 - websocket_client - INFO - Excluded XLMUSDT due to price below 0.5 USDT
+2025-05-19 13:36:47,429 - websocket_client - INFO - Excluded ONTUSDT due to price below 0.5 USDT
+2025-05-19 13:36:47,758 - websocket_client - INFO - Excluded TRXUSDT due to price below 0.5 USDT
+2025-05-19 13:36:48,439 - websocket_client - INFO - Excluded ICXUSDT due to price below 0.5 USDT
+2025-05-19 13:36:48,777 - websocket_client - INFO - Excluded VETUSDT due to price below 0.5 USDT
+2025-05-19 13:36:49,944 - websocket_client - INFO - Excluded ONGUSDT due to price below 0.5 USDT
+2025-05-19 13:36:50,283 - websocket_client - INFO - Excluded HOTUSDT due to price below 0.5 USDT
+2025-05-19 13:36:50,622 - websocket_client - INFO - Excluded ZILUSDT due to price below 0.5 USDT
+2025-05-19 13:36:51,094 - websocket_client - INFO - Excluded ZRXUSDT due to price below 0.5 USDT
+2025-05-19 13:36:51,818 - websocket_client - INFO - Excluded BATUSDT due to price below 0.5 USDT
+2025-05-19 13:36:52,514 - websocket_client - INFO - Excluded IOSTUSDT due to price below 0.5 USDT
+2025-05-19 13:36:52,976 - websocket_client - INFO - Excluded CELRUSDT due to price below 0.5 USDT
+2025-05-19 13:36:54,125 - websocket_client - INFO - Excluded ENJUSDT due to price below 0.5 USDT
+2025-05-19 13:36:54,879 - websocket_client - INFO - Excluded TFUELUSDT due to price below 0.5 USDT
+2025-05-19 13:36:55,275 - websocket_client - INFO - Excluded ONEUSDT due to price below 0.5 USDT
+2025-05-19 13:36:55,603 - websocket_client - INFO - Excluded ALGOUSDT due to price below 0.5 USDT
+2025-05-19 13:36:55,943 - websocket_client - INFO - Excluded DOGEUSDT due to price below 0.5 USDT
+2025-05-19 13:36:56,283 - websocket_client - INFO - Excluded DUSKUSDT due to price below 0.5 USDT
+2025-05-19 13:36:56,747 - websocket_client - INFO - Excluded ANKRUSDT due to price below 0.5 USDT
+2025-05-19 13:36:57,129 - websocket_client - INFO - Excluded WINUSDT due to price below 0.5 USDT
+2025-05-19 13:36:57,471 - websocket_client - INFO - Excluded COSUSDT due to price below 0.5 USDT
+2025-05-19 13:36:58,178 - websocket_client - INFO - Excluded DENTUSDT due to price below 0.5 USDT
+2025-05-19 13:36:58,546 - websocket_client - INFO - Excluded WANUSDT due to price below 0.5 USDT
+2025-05-19 13:36:58,882 - websocket_client - INFO - Excluded FUNUSDT due to price below 0.5 USDT
+2025-05-19 13:36:59,236 - websocket_client - INFO - Excluded CVCUSDT due to price below 0.5 USDT
+2025-05-19 13:36:59,561 - websocket_client - INFO - Excluded CHZUSDT due to price below 0.5 USDT
+2025-05-19 13:37:00,731 - websocket_client - INFO - Excluded RVNUSDT due to price below 0.5 USDT
+2025-05-19 13:37:01,066 - websocket_client - INFO - Excluded HBARUSDT due to price below 0.5 USDT
+2025-05-19 13:37:01,413 - websocket_client - INFO - Excluded NKNUSDT due to price below 0.5 USDT
+2025-05-19 13:37:02,121 - websocket_client - INFO - Excluded KAVAUSDT due to price below 0.5 USDT
+2025-05-19 13:37:02,484 - websocket_client - INFO - Excluded ARPAUSDT due to price below 0.5 USDT
+2025-05-19 13:37:02,822 - websocket_client - INFO - Excluded IOTXUSDT due to price below 0.5 USDT
+2025-05-19 13:37:04,696 - websocket_client - INFO - Excluded OGNUSDT due to price below 0.5 USDT
+2025-05-19 13:37:05,773 - websocket_client - INFO - Excluded LTOUSDT due to price below 0.5 USDT
+2025-05-19 13:37:06,116 - websocket_client - INFO - Excluded MBLUSDT due to price below 0.5 USDT
+2025-05-19 13:37:06,451 - websocket_client - INFO - Excluded COTIUSDT due to price below 0.5 USDT
+2025-05-19 13:37:06,818 - websocket_client - INFO - Excluded DATAUSDT due to price below 0.5 USDT
+2025-05-19 13:37:07,517 - websocket_client - INFO - Excluded CTSIUSDT due to price below 0.5 USDT
+2025-05-19 13:37:07,864 - websocket_client - INFO - Excluded HIVEUSDT due to price below 0.5 USDT
+2025-05-19 13:37:08,192 - websocket_client - INFO - Excluded CHRUSDT due to price below 0.5 USDT
+2025-05-19 13:37:08,538 - websocket_client - INFO - Excluded ARDRUSDT due to price below 0.5 USDT
+2025-05-19 13:37:08,952 - websocket_client - INFO - Excluded MDTUSDT due to price below 0.5 USDT
+2025-05-19 13:37:09,445 - websocket_client - INFO - Excluded KNCUSDT due to price below 0.5 USDT
+2025-05-19 13:37:09,810 - websocket_client - INFO - Excluded LRCUSDT due to price below 0.5 USDT
+2025-05-19 13:37:10,483 - websocket_client - INFO - Excluded SCUSDT due to price below 0.5 USDT
+2025-05-19 13:37:11,696 - websocket_client - INFO - Excluded VTHOUSDT due to price below 0.5 USDT
+2025-05-19 13:37:12,055 - websocket_client - INFO - Excluded DGBUSDT due to price below 0.5 USDT
+2025-05-19 13:37:12,392 - websocket_client - INFO - Excluded SXPUSDT due to price below 0.5 USDT
+2025-05-19 13:37:13,444 - websocket_client - INFO - Excluded STORJUSDT due to price below 0.5 USDT
+2025-05-19 13:37:13,789 - websocket_client - INFO - Excluded MANAUSDT due to price below 0.5 USDT
+2025-05-19 13:37:14,514 - websocket_client - INFO - Excluded KMDUSDT due to price below 0.5 USDT
+2025-05-19 13:37:14,844 - websocket_client - INFO - Excluded JSTUSDT due to price below 0.5 USDT
+2025-05-19 13:37:15,619 - websocket_client - INFO - Excluded SANDUSDT due to price below 0.5 USDT
+2025-05-19 13:37:16,924 - websocket_client - INFO - Excluded LUNAUSDT due to price below 0.5 USDT
+2025-05-19 13:37:17,380 - websocket_client - INFO - Excluded RSRUSDT due to price below 0.5 USDT
+2025-05-19 13:37:19,768 - websocket_client - INFO - Excluded DIAUSDT due to price below 0.5 USDT
+2025-05-19 13:37:20,536 - websocket_client - INFO - Excluded FIOUSDT due to price below 0.5 USDT
+2025-05-19 13:37:21,205 - websocket_client - INFO - Excluded BELUSDT due to price below 0.5 USDT
+2025-05-19 13:37:21,976 - websocket_client - INFO - Excluded OXTUSDT due to price below 0.5 USDT
+2025-05-19 13:37:22,318 - websocket_client - INFO - Excluded SUNUSDT due to price below 0.5 USDT
+2025-05-19 13:37:23,057 - websocket_client - INFO - Excluded FLMUSDT due to price below 0.5 USDT
+2025-05-19 13:37:23,388 - websocket_client - INFO - Excluded UTKUSDT due to price below 0.5 USDT
+2025-05-19 13:37:24,077 - websocket_client - INFO - Excluded ALPHAUSDT due to price below 0.5 USDT
+2025-05-19 13:37:26,019 - websocket_client - INFO - Excluded AUDIOUSDT due to price below 0.5 USDT
+2025-05-19 13:37:26,437 - websocket_client - INFO - Excluded CTKUSDT due to price below 0.5 USDT
+2025-05-19 13:37:27,286 - websocket_client - INFO - Excluded STRAXUSDT due to price below 0.5 USDT
+2025-05-19 13:37:27,600 - websocket_client - INFO - Excluded ROSEUSDT due to price below 0.5 USDT
+2025-05-19 13:37:28,300 - websocket_client - INFO - Excluded SKLUSDT due to price below 0.5 USDT
+2025-05-19 13:37:28,702 - websocket_client - INFO - Excluded GRTUSDT due to price below 0.5 USDT
+2025-05-19 13:37:30,310 - websocket_client - INFO - Excluded 1INCHUSDT due to price below 0.5 USDT
+2025-05-19 13:37:31,805 - websocket_client - INFO - Excluded CELOUSDT due to price below 0.5 USDT
+2025-05-19 13:37:32,145 - websocket_client - INFO - Excluded RIFUSDT due to price below 0.5 USDT
+2025-05-19 13:37:32,482 - websocket_client - INFO - Excluded TRUUSDT due to price below 0.5 USDT
+2025-05-19 13:37:32,819 - websocket_client - INFO - Excluded CKBUSDT due to price below 0.5 USDT
+2025-05-19 13:37:33,869 - websocket_client - INFO - Excluded DODOUSDT due to price below 0.5 USDT
+2025-05-19 13:37:34,938 - websocket_client - INFO - Excluded FISUSDT due to price below 0.5 USDT
+2025-05-19 13:37:35,374 - websocket_client - INFO - Excluded OMUSDT due to price below 0.5 USDT
+2025-05-19 13:37:35,859 - websocket_client - INFO - Excluded PONDUSDT due to price below 0.5 USDT
+2025-05-19 13:37:36,727 - websocket_client - INFO - Excluded ALICEUSDT due to price below 0.5 USDT
+2025-05-19 13:37:37,061 - websocket_client - INFO - Excluded PERPUSDT due to price below 0.5 USDT
+2025-05-19 13:37:37,761 - websocket_client - INFO - Excluded CFXUSDT due to price below 0.5 USDT
+2025-05-19 13:37:38,108 - websocket_client - INFO - Excluded TKOUSDT due to price below 0.5 USDT
+2025-05-19 13:37:38,459 - websocket_client - INFO - Excluded PUNDIXUSDT due to price below 0.5 USDT
+2025-05-19 13:37:38,806 - websocket_client - INFO - Excluded TLMUSDT due to price below 0.5 USDT
+2025-05-19 13:37:39,986 - websocket_client - INFO - Excluded BAKEUSDT due to price below 0.5 USDT
+2025-05-19 13:37:40,453 - websocket_client - INFO - Excluded SLPUSDT due to price below 0.5 USDT
+2025-05-19 13:37:40,795 - websocket_client - INFO - Excluded SHIBUSDT due to price below 0.5 USDT
+2025-05-19 13:37:42,637 - websocket_client - INFO - Excluded XVGUSDT due to price below 0.5 USDT
+2025-05-19 13:37:42,991 - websocket_client - INFO - Excluded ATAUSDT due to price below 0.5 USDT
+2025-05-19 13:37:43,336 - websocket_client - INFO - Excluded GTCUSDT due to price below 0.5 USDT
+2025-05-19 13:37:43,672 - websocket_client - INFO - Excluded PHAUSDT due to price below 0.5 USDT
+2025-05-19 13:37:44,697 - websocket_client - INFO - Excluded C98USDT due to price below 0.5 USDT
+2025-05-19 13:37:45,443 - websocket_client - INFO - Excluded FLOWUSDT due to price below 0.5 USDT
+2025-05-19 13:37:45,794 - websocket_client - INFO - Excluded MINAUSDT due to price below 0.5 USDT
+2025-05-19 13:37:46,931 - websocket_client - INFO - Excluded QUICKUSDT due to price below 0.5 USDT
+2025-05-19 13:37:47,328 - websocket_client - INFO - Excluded MBOXUSDT due to price below 0.5 USDT
+2025-05-19 13:37:47,667 - websocket_client - INFO - Excluded REQUSDT due to price below 0.5 USDT
+2025-05-19 13:37:48,358 - websocket_client - INFO - Excluded WAXPUSDT due to price below 0.5 USDT
+2025-05-19 13:37:49,048 - websocket_client - INFO - Excluded XECUSDT due to price below 0.5 USDT
+2025-05-19 13:37:49,724 - websocket_client - INFO - Excluded IDEXUSDT due to price below 0.5 USDT
+2025-05-19 13:37:50,464 - websocket_client - INFO - Excluded GALAUSDT due to price below 0.5 USDT
+2025-05-19 13:37:51,308 - websocket_client - INFO - Excluded YGGUSDT due to price below 0.5 USDT
+2025-05-19 13:37:51,790 - websocket_client - INFO - Excluded SYSUSDT due to price below 0.5 USDT
+2025-05-19 13:37:52,117 - websocket_client - INFO - Excluded DFUSDT due to price below 0.5 USDT
+2025-05-19 13:37:52,455 - websocket_client - INFO - Excluded FIDAUSDT due to price below 0.5 USDT
+2025-05-19 13:37:53,536 - websocket_client - INFO - Excluded RAREUSDT due to price below 0.5 USDT
+2025-05-19 13:37:54,210 - websocket_client - INFO - Excluded CHESSUSDT due to price below 0.5 USDT
+2025-05-19 13:37:54,550 - websocket_client - INFO - Excluded ADXUSDT due to price below 0.5 USDT
+2025-05-19 13:37:56,462 - websocket_client - INFO - Excluded QIUSDT due to price below 0.5 USDT
+2025-05-19 13:37:57,136 - websocket_client - INFO - Excluded POWRUSDT due to price below 0.5 USDT
+2025-05-19 13:37:57,486 - websocket_client - INFO - Excluded JASMYUSDT due to price below 0.5 USDT
+2025-05-19 13:37:57,982 - websocket_client - INFO - Excluded AMPUSDT due to price below 0.5 USDT
+2025-05-19 13:37:59,456 - websocket_client - INFO - Excluded BICOUSDT due to price below 0.5 USDT
+2025-05-19 13:37:59,809 - websocket_client - INFO - Excluded FLUXUSDT due to price below 0.5 USDT
+2025-05-19 13:38:00,557 - websocket_client - INFO - Excluded VOXELUSDT due to price below 0.5 USDT
+2025-05-19 13:38:01,705 - websocket_client - INFO - Excluded PEOPLEUSDT due to price below 0.5 USDT
+2025-05-19 13:38:02,065 - websocket_client - INFO - Excluded SPELLUSDT due to price below 0.5 USDT
+2025-05-19 13:38:02,400 - websocket_client - INFO - Excluded JOEUSDT due to price below 0.5 USDT
+2025-05-19 13:38:02,733 - websocket_client - INFO - Excluded ACHUSDT due to price below 0.5 USDT
+2025-05-19 13:38:03,415 - websocket_client - INFO - Excluded GLMRUSDT due to price below 0.5 USDT
+2025-05-19 13:38:03,762 - websocket_client - INFO - Excluded LOKAUSDT due to price below 0.5 USDT
+2025-05-19 13:38:04,160 - websocket_client - INFO - Excluded SCRTUSDT due to price below 0.5 USDT
+2025-05-19 13:38:04,875 - websocket_client - INFO - Excluded BTTCUSDT due to price below 0.5 USDT
+2025-05-19 13:38:05,200 - websocket_client - INFO - Excluded ACAUSDT due to price below 0.5 USDT
+2025-05-19 13:38:05,946 - websocket_client - INFO - Excluded WOOUSDT due to price below 0.5 USDT
+2025-05-19 13:38:06,709 - websocket_client - INFO - Excluded TUSDT due to price below 0.5 USDT
+2025-05-19 13:38:07,046 - websocket_client - INFO - Excluded ASTRUSDT due to price below 0.5 USDT
+2025-05-19 13:38:07,384 - websocket_client - INFO - Excluded GMTUSDT due to price below 0.5 USDT
+2025-05-19 13:38:08,471 - websocket_client - INFO - Excluded BSWUSDT due to price below 0.5 USDT
+2025-05-19 13:38:09,261 - websocket_client - INFO - Excluded STEEMUSDT due to price below 0.5 USDT
+2025-05-19 13:38:09,956 - websocket_client - INFO - Excluded REIUSDT due to price below 0.5 USDT
+2025-05-19 13:38:11,021 - websocket_client - INFO - Excluded LEVERUSDT due to price below 0.5 USDT
+2025-05-19 13:38:11,354 - websocket_client - INFO - Excluded STGUSDT due to price below 0.5 USDT
+2025-05-19 13:38:11,692 - websocket_client - INFO - Excluded LUNCUSDT due to price below 0.5 USDT
+2025-05-19 13:38:12,416 - websocket_client - INFO - Excluded POLYXUSDT due to price below 0.5 USDT
+2025-05-19 13:38:13,089 - websocket_client - INFO - Excluded OSMOUSDT due to price below 0.5 USDT
+2025-05-19 13:38:13,476 - websocket_client - INFO - Excluded HFTUSDT due to price below 0.5 USDT
+2025-05-19 13:38:14,150 - websocket_client - INFO - Excluded HOOKUSDT due to price below 0.5 USDT
+2025-05-19 13:38:14,500 - websocket_client - INFO - Excluded MAGICUSDT due to price below 0.5 USDT
+2025-05-19 13:38:14,835 - websocket_client - INFO - Excluded HIFIUSDT due to price below 0.5 USDT
+2025-05-19 13:38:15,827 - websocket_client - INFO - Excluded SYNUSDT due to price below 0.5 USDT
+2025-05-19 13:38:17,044 - websocket_client - INFO - Excluded USTCUSDT due to price below 0.5 USDT
+2025-05-19 13:38:17,712 - websocket_client - INFO - Excluded GLMUSDT due to price below 0.5 USDT
+2025-05-19 13:38:18,390 - websocket_client - INFO - Excluded QKCUSDT due to price below 0.5 USDT
+2025-05-19 13:38:18,741 - websocket_client - INFO - Excluded IDUSDT due to price below 0.5 USDT
+2025-05-19 13:38:19,075 - websocket_client - INFO - Excluded ARBUSDT due to price below 0.5 USDT
+2025-05-19 13:38:19,458 - websocket_client - INFO - Excluded RDNTUSDT due to price below 0.5 USDT
+2025-05-19 13:38:20,160 - websocket_client - INFO - Excluded EDUUSDT due to price below 0.5 USDT
+2025-05-19 13:38:20,896 - websocket_client - INFO - Excluded PEPEUSDT due to price below 0.5 USDT
+2025-05-19 13:38:21,260 - websocket_client - INFO - Excluded FLOKIUSDT due to price below 0.5 USDT
+2025-05-19 13:38:21,608 - websocket_client - INFO - Excluded MAVUSDT due to price below 0.5 USDT
+2025-05-19 13:38:23,935 - websocket_client - INFO - Excluded SEIUSDT due to price below 0.5 USDT
+2025-05-19 13:38:24,630 - websocket_client - INFO - Excluded ARKUSDT due to price below 0.5 USDT
+2025-05-19 13:38:24,997 - websocket_client - INFO - Excluded IQUSDT due to price below 0.5 USDT
+2025-05-19 13:38:25,339 - websocket_client - INFO - Excluded NTRNUSDT due to price below 0.5 USDT
+2025-05-19 13:38:26,128 - websocket_client - INFO - Excluded MEMEUSDT due to price below 0.5 USDT
+2025-05-19 13:38:26,827 - websocket_client - INFO - Excluded BEAMXUSDT due to price below 0.5 USDT
+2025-05-19 13:38:27,181 - websocket_client - INFO - Excluded PIVXUSDT due to price below 0.5 USDT
+2025-05-19 13:38:27,523 - websocket_client - INFO - Excluded VICUSDT due to price below 0.5 USDT
+2025-05-19 13:38:27,879 - websocket_client - INFO - Excluded BLURUSDT due to price below 0.5 USDT
+2025-05-19 13:38:28,223 - websocket_client - INFO - Excluded VANRYUSDT due to price below 0.5 USDT
+2025-05-19 13:38:29,368 - websocket_client - INFO - Excluded 1000SATSUSDT due to price below 0.5 USDT
+2025-05-19 13:38:29,713 - websocket_client - INFO - Excluded BONKUSDT due to price below 0.5 USDT
+2025-05-19 13:38:30,405 - websocket_client - INFO - Excluded NFPUSDT due to price below 0.5 USDT
+2025-05-19 13:38:30,848 - websocket_client - INFO - Excluded AIUSDT due to price below 0.5 USDT
+2025-05-19 13:38:31,179 - websocket_client - INFO - Excluded XAIUSDT due to price below 0.5 USDT
+2025-05-19 13:38:31,534 - websocket_client - INFO - Excluded MANTAUSDT due to price below 0.5 USDT
+2025-05-19 13:38:31,859 - websocket_client - INFO - Excluded ALTUSDT due to price below 0.5 USDT
+2025-05-19 13:38:32,230 - websocket_client - INFO - Excluded JUPUSDT due to price below 0.5 USDT
+2025-05-19 13:38:32,562 - websocket_client - INFO - Excluded PYTHUSDT due to price below 0.5 USDT
+2025-05-19 13:38:33,239 - websocket_client - INFO - Excluded DYMUSDT due to price below 0.5 USDT
+2025-05-19 13:38:33,604 - websocket_client - INFO - Excluded PIXELUSDT due to price below 0.5 USDT
+2025-05-19 13:38:33,940 - websocket_client - INFO - Excluded STRKUSDT due to price below 0.5 USDT
+2025-05-19 13:38:34,273 - websocket_client - INFO - Excluded PORTALUSDT due to price below 0.5 USDT
+2025-05-19 13:38:34,609 - websocket_client - INFO - Excluded AXLUSDT due to price below 0.5 USDT
+2025-05-19 13:38:35,689 - websocket_client - INFO - Excluded AEVOUSDT due to price below 0.5 USDT
+2025-05-19 13:38:36,039 - websocket_client - INFO - Excluded BOMEUSDT due to price below 0.5 USDT
+2025-05-19 13:38:36,707 - websocket_client - INFO - Excluded ENAUSDT due to price below 0.5 USDT
+2025-05-19 13:38:37,038 - websocket_client - INFO - Excluded WUSDT due to price below 0.5 USDT
+2025-05-19 13:38:37,411 - websocket_client - INFO - Excluded TNSRUSDT due to price below 0.5 USDT
+2025-05-19 13:38:37,748 - websocket_client - INFO - Excluded SAGAUSDT due to price below 0.5 USDT
+2025-05-19 13:38:38,872 - websocket_client - INFO - Excluded REZUSDT due to price below 0.5 USDT
+2025-05-19 13:38:39,308 - websocket_client - INFO - Excluded BBUSDT due to price below 0.5 USDT
+2025-05-19 13:38:39,648 - websocket_client - INFO - Excluded NOTUSDT due to price below 0.5 USDT
+2025-05-19 13:38:40,332 - websocket_client - INFO - Excluded ZKUSDT due to price below 0.5 USDT
+2025-05-19 13:38:40,723 - websocket_client - INFO - Excluded LISTAUSDT due to price below 0.5 USDT
+2025-05-19 13:38:41,389 - websocket_client - INFO - Excluded GUSDT due to price below 0.5 USDT
+2025-05-19 13:38:42,941 - websocket_client - INFO - Excluded DOGSUSDT due to price below 0.5 USDT
+2025-05-19 13:38:43,609 - websocket_client - INFO - Excluded SLFUSDT due to price below 0.5 USDT
+2025-05-19 13:38:43,963 - websocket_client - INFO - Excluded POLUSDT due to price below 0.5 USDT
+2025-05-19 13:38:44,319 - websocket_client - INFO - Excluded NEIROUSDT due to price below 0.5 USDT
+2025-05-19 13:38:44,699 - websocket_client - INFO - Excluded TURBOUSDT due to price below 0.5 USDT
+2025-05-19 13:38:45,030 - websocket_client - INFO - Excluded 1MBABYDOGEUSDT due to price below 0.5 USDT
+2025-05-19 13:38:45,430 - websocket_client - INFO - Excluded CATIUSDT due to price below 0.5 USDT
+2025-05-19 13:38:45,754 - websocket_client - INFO - Excluded HMSTRUSDT due to price below 0.5 USDT
+2025-05-19 13:38:46,433 - websocket_client - INFO - Excluded SCRUSDT due to price below 0.5 USDT
+2025-05-19 13:38:47,175 - websocket_client - INFO - Excluded LUMIAUSDT due to price below 0.5 USDT
+2025-05-19 13:38:47,517 - websocket_client - INFO - Excluded KAIAUSDT due to price below 0.5 USDT
+2025-05-19 13:38:47,858 - websocket_client - INFO - Excluded COWUSDT due to price below 0.5 USDT
+2025-05-19 13:38:48,237 - websocket_client - INFO - Excluded CETUSUSDT due to price below 0.5 USDT
+2025-05-19 13:38:48,593 - websocket_client - INFO - Excluded PNUTUSDT due to price below 0.5 USDT
+2025-05-19 13:38:48,921 - websocket_client - INFO - Excluded ACTUSDT due to price below 0.5 USDT
+2025-05-19 13:38:49,269 - websocket_client - INFO - Excluded USUALUSDT due to price below 0.5 USDT
+2025-05-19 13:38:49,694 - websocket_client - INFO - Excluded THEUSDT due to price below 0.5 USDT
+2025-05-19 13:38:50,109 - websocket_client - INFO - Excluded ACXUSDT due to price below 0.5 USDT
+2025-05-19 13:38:50,778 - websocket_client - INFO - Excluded MOVEUSDT due to price below 0.5 USDT
+2025-05-19 13:38:51,712 - websocket_client - INFO - Excluded VELODROMEUSDT due to price below 0.5 USDT
+2025-05-19 13:38:52,599 - websocket_client - INFO - Excluded 1000CATUSDT due to price below 0.5 USDT
+2025-05-19 13:38:53,010 - websocket_client - INFO - Excluded PENGUUSDT due to price below 0.5 USDT
+2025-05-19 13:38:53,379 - websocket_client - INFO - Excluded BIOUSDT due to price below 0.5 USDT
+2025-05-19 13:38:53,725 - websocket_client - INFO - Excluded DUSDT due to price below 0.5 USDT
+2025-05-19 13:38:54,078 - websocket_client - INFO - Excluded AIXBTUSDT due to price below 0.5 USDT
+2025-05-19 13:38:54,419 - websocket_client - INFO - Excluded CGPTUSDT due to price below 0.5 USDT
+2025-05-19 13:38:54,782 - websocket_client - INFO - Excluded COOKIEUSDT due to price below 0.5 USDT
+2025-05-19 13:38:55,111 - websocket_client - INFO - Excluded SUSDT due to price below 0.5 USDT
+2025-05-19 13:38:55,463 - websocket_client - INFO - Excluded SOLVUSDT due to price below 0.5 USDT
+2025-05-19 13:38:56,130 - websocket_client - INFO - Excluded ANIMEUSDT due to price below 0.5 USDT
+2025-05-19 13:38:56,812 - websocket_client - INFO - Excluded 1000CHEEMSUSDT due to price below 0.5 USDT
+2025-05-19 13:38:57,201 - websocket_client - INFO - Excluded TSTUSDT due to price below 0.5 USDT
+2025-05-19 13:38:57,853 - websocket_client - INFO - Excluded HEIUSDT due to price below 0.5 USDT
+2025-05-19 13:38:58,580 - websocket_client - INFO - Excluded SHELLUSDT due to price below 0.5 USDT
+2025-05-19 13:38:58,925 - websocket_client - INFO - Excluded REDUSDT due to price below 0.5 USDT
+2025-05-19 13:38:59,258 - websocket_client - INFO - Excluded GPSUSDT due to price below 0.5 USDT
+2025-05-19 13:39:00,056 - websocket_client - INFO - Excluded BMTUSDT due to price below 0.5 USDT
+2025-05-19 13:39:01,113 - websocket_client - INFO - Excluded NILUSDT due to price below 0.5 USDT
+2025-05-19 13:39:01,450 - websocket_client - INFO - Excluded PARTIUSDT due to price below 0.5 USDT
+2025-05-19 13:39:01,792 - websocket_client - INFO - Excluded MUBARAKUSDT due to price below 0.5 USDT
+2025-05-19 13:39:02,154 - websocket_client - INFO - Excluded TUTUSDT due to price below 0.5 USDT
+2025-05-19 13:39:02,586 - websocket_client - INFO - Excluded BROCCOLI714USDT due to price below 0.5 USDT
+2025-05-19 13:39:02,936 - websocket_client - INFO - Excluded BANANAS31USDT due to price below 0.5 USDT
+2025-05-19 13:39:03,378 - websocket_client - INFO - Excluded GUNUSDT due to price below 0.5 USDT
+2025-05-19 13:39:03,767 - websocket_client - INFO - Excluded BABYUSDT due to price below 0.5 USDT
+2025-05-19 13:39:04,448 - websocket_client - INFO - Excluded BIGTIMEUSDT due to price below 0.5 USDT
+2025-05-19 13:39:05,132 - websocket_client - INFO - Excluded KERNELUSDT due to price below 0.5 USDT
+2025-05-19 13:39:05,833 - websocket_client - INFO - Excluded HYPERUSDT due to price below 0.5 USDT
+2025-05-19 13:39:06,657 - websocket_client - INFO - Excluded SIGNUSDT due to price below 0.5 USDT
+2025-05-19 13:39:07,303 - websocket_client - INFO - Excluded STOUSDT due to price below 0.5 USDT
+2025-05-19 13:39:07,755 - websocket_client - INFO - Excluded SYRUPUSDT due to price below 0.5 USDT
+2025-05-19 13:39:08,101 - websocket_client - INFO - Excluded KMNOUSDT due to price below 0.5 USDT
+2025-05-19 13:39:08,525 - websocket_client - INFO - Excluded SXTUSDT due to price below 0.5 USDT
+2025-05-19 13:39:08,936 - websocket_client - INFO - Fetched 156 active USDT trading pairs
+2025-05-19 13:39:10,461 - websocket - INFO - Websocket connected
+2025-05-19 13:39:10,463 - websocket_client - INFO - WebSocket connected: btcusdt@kline_1m
+2025-05-19 13:39:10,942 - websocket - INFO - Websocket connected
+2025-05-19 13:39:10,943 - websocket_client - INFO - WebSocket connected: ethusdt@kline_1m
+2025-05-19 13:39:11,384 - websocket - INFO - Websocket connected
+2025-05-19 13:39:11,385 - websocket_client - INFO - WebSocket connected: bnbusdt@kline_1m
+2025-05-19 13:39:11,939 - websocket - INFO - Websocket connected
+2025-05-19 13:39:11,941 - websocket_client - INFO - WebSocket connected: neousdt@kline_1m
+2025-05-19 13:39:12,518 - websocket - INFO - Websocket connected
+2025-05-19 13:39:12,519 - websocket_client - INFO - WebSocket connected: ltcusdt@kline_1m
+2025-05-19 13:39:13,098 - websocket - INFO - Websocket connected
+2025-05-19 13:39:13,101 - websocket_client - INFO - WebSocket connected: qtumusdt@kline_1m
+2025-05-19 13:39:13,447 - websocket - INFO - Websocket connected
+2025-05-19 13:39:13,447 - websocket_client - INFO - WebSocket connected: adausdt@kline_1m
+2025-05-19 13:39:13,901 - websocket - INFO - Websocket connected
+2025-05-19 13:39:13,902 - websocket_client - INFO - WebSocket connected: xrpusdt@kline_1m
+2025-05-19 13:39:14,265 - websocket_client - INFO - Connected to 10 symbols
+2025-05-19 13:39:14,374 - websocket - INFO - Websocket connected
+2025-05-19 13:39:14,375 - websocket_client - INFO - WebSocket connected: eosusdt@kline_1m
+2025-05-19 13:39:14,909 - websocket - INFO - Websocket connected
+2025-05-19 13:39:14,910 - websocket_client - INFO - WebSocket connected: tusdusdt@kline_1m
+2025-05-19 13:39:19,267 - __main__ - INFO - Trading bot started successfully
+2025-05-19 13:39:19,268 - __main__ - INFO - Trading bot running. Press Ctrl+C to stop.
+2025-05-19 13:39:19,268 - __main__ - INFO - Active components: ['websocket', 'indicators', 'ai_model', 'signals']
+2025-05-19 13:39:49,271 - __main__ - INFO - Processing symbols batch: ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'NEOUSDT', 'LTCUSDT']
+2025-05-19 13:39:49,276 - __main__ - WARNING - No klines data available for BTCUSDT
+2025-05-19 13:39:49,277 - __main__ - WARNING - No klines data available for ETHUSDT
+2025-05-19 13:39:49,277 - __main__ - WARNING - No klines data available for BNBUSDT
+2025-05-19 13:39:49,278 - __main__ - WARNING - No klines data available for NEOUSDT
+2025-05-19 13:39:49,279 - __main__ - WARNING - No klines data available for LTCUSDT
+2025-05-19 13:39:54,288 - __main__ - INFO - Processing symbols batch: ['QTUMUSDT', 'ADAUSDT', 'XRPUSDT', 'EOSUSDT', 'TUSDUSDT']
+2025-05-19 13:39:54,289 - __main__ - WARNING - No klines data available for QTUMUSDT
+2025-05-19 13:39:54,290 - __main__ - WARNING - No klines data available for ADAUSDT
+2025-05-19 13:39:54,291 - __main__ - WARNING - No klines data available for XRPUSDT
+2025-05-19 13:39:54,292 - __main__ - WARNING - No klines data available for EOSUSDT
+2025-05-19 13:39:54,292 - __main__ - WARNING - No klines data available for TUSDUSDT
+2025-05-19 13:40:59,295 - __main__ - INFO - Processing symbols batch: ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'NEOUSDT', 'LTCUSDT']
+2025-05-19 13:40:59,296 - indicators - ERROR - Database manager not available
+2025-05-19 13:40:59,296 - signal_generator - ERROR - Required components not available
+2025-05-19 13:40:59,297 - indicators - ERROR - Database manager not available
+2025-05-19 13:40:59,298 - signal_generator - ERROR - Required components not available
+2025-05-19 13:40:59,298 - indicators - ERROR - Database manager not available
+2025-05-19 13:40:59,299 - signal_generator - ERROR - Required components not available
+2025-05-19 13:40:59,299 - indicators - ERROR - Database manager not available
+2025-05-19 13:40:59,299 - signal_generator - ERROR - Required components not available
+2025-05-19 13:40:59,300 - indicators - ERROR - Database manager not available
+2025-05-19 13:40:59,300 - signal_generator - ERROR - Required components not available
+2025-05-19 13:41:04,301 - __main__ - INFO - Processing symbols batch: ['QTUMUSDT', 'ADAUSDT', 'XRPUSDT', 'EOSUSDT', 'TUSDUSDT']
+2025-05-19 13:41:04,301 - indicators - ERROR - Database manager not available
+2025-05-19 13:41:04,302 - signal_generator - ERROR - Required components not available
+2025-05-19 13:41:04,302 - indicators - ERROR - Database manager not available
+2025-05-19 13:41:04,302 - signal_generator - ERROR - Required components not available
+2025-05-19 13:41:04,302 - indicators - ERROR - Database manager not available
+2025-05-19 13:41:04,302 - signal_generator - ERROR - Required components not available
+2025-05-19 13:41:04,303 - indicators - ERROR - Database manager not available
+2025-05-19 13:41:04,303 - signal_generator - ERROR - Required components not available
+2025-05-19 13:41:04,303 - indicators - ERROR - Database manager not available
+2025-05-19 13:41:04,303 - signal_generator - ERROR - Required components not available
+2025-05-19 13:42:09,434 - __main__ - INFO - Processing symbols batch: ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'NEOUSDT', 'LTCUSDT']
+2025-05-19 13:42:09,435 - indicators - ERROR - Database manager not available
+2025-05-19 13:42:09,435 - signal_generator - ERROR - Required components not available
+2025-05-19 13:42:09,436 - indicators - ERROR - Database manager not available
+2025-05-19 13:42:09,436 - signal_generator - ERROR - Required components not available
+2025-05-19 13:42:09,436 - indicators - ERROR - Database manager not available
+2025-05-19 13:42:09,437 - signal_generator - ERROR - Required components not available
+2025-05-19 13:42:09,437 - indicators - ERROR - Database manager not available
+2025-05-19 13:42:09,437 - signal_generator - ERROR - Required components not available
+2025-05-19 13:42:09,438 - indicators - ERROR - Database manager not available
+2025-05-19 13:42:09,438 - signal_generator - ERROR - Required components not available
+2025-05-19 13:42:14,510 - __main__ - INFO - Processing symbols batch: ['QTUMUSDT', 'ADAUSDT', 'XRPUSDT', 'EOSUSDT', 'TUSDUSDT']
+2025-05-19 13:42:14,510 - indicators - ERROR - Database manager not available
+2025-05-19 13:42:14,512 - signal_generator - ERROR - Required components not available
+2025-05-19 13:42:14,512 - indicators - ERROR - Database manager not available
+2025-05-19 13:42:14,512 - signal_generator - ERROR - Required components not available
+2025-05-19 13:42:14,513 - indicators - ERROR - Database manager not available
+2025-05-19 13:42:14,513 - signal_generator - ERROR - Required components not available
+2025-05-19 13:42:14,514 - indicators - ERROR - Database manager not available
+2025-05-19 13:42:14,514 - signal_generator - ERROR - Required components not available
+2025-05-19 13:42:14,514 - indicators - ERROR - Database manager not available
+2025-05-19 13:42:14,515 - signal_generator - ERROR - Required components not available
+2025-05-19 13:43:19,517 - __main__ - INFO - Processing symbols batch: ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'NEOUSDT', 'LTCUSDT']
+2025-05-19 13:43:19,518 - indicators - ERROR - Database manager not available
+2025-05-19 13:43:19,518 - signal_generator - ERROR - Required components not available
+2025-05-19 13:43:19,518 - indicators - ERROR - Database manager not available
+2025-05-19 13:43:19,519 - signal_generator - ERROR - Required components not available
+2025-05-19 13:43:19,519 - indicators - ERROR - Database manager not available
+2025-05-19 13:43:19,519 - signal_generator - ERROR - Required components not available
+2025-05-19 13:43:19,520 - indicators - ERROR - Database manager not available
+2025-05-19 13:43:19,520 - signal_generator - ERROR - Required components not available
+2025-05-19 13:43:19,521 - indicators - ERROR - Database manager not available
+2025-05-19 13:43:19,521 - signal_generator - ERROR - Required components not available
+2025-05-19 13:43:24,522 - __main__ - INFO - Processing symbols batch: ['QTUMUSDT', 'ADAUSDT', 'XRPUSDT', 'EOSUSDT', 'TUSDUSDT']
+2025-05-19 13:43:24,522 - indicators - ERROR - Database manager not available
+2025-05-19 13:43:24,523 - signal_generator - ERROR - Required components not available
+2025-05-19 13:43:24,523 - indicators - ERROR - Database manager not available
+2025-05-19 13:43:24,524 - signal_generator - ERROR - Required components not available
+2025-05-19 13:43:24,524 - indicators - ERROR - Database manager not available
+2025-05-19 13:43:24,525 - signal_generator - ERROR - Required components not available
+2025-05-19 13:43:24,525 - indicators - ERROR - Database manager not available
+2025-05-19 13:43:24,526 - signal_generator - ERROR - Required components not available
+2025-05-19 13:43:24,526 - indicators - ERROR - Database manager not available
+2025-05-19 13:43:24,526 - signal_generator - ERROR - Required components not available
+2025-05-19 13:44:19,398 - __main__ - INFO - WebSocket client status: Running
+2025-05-19 13:44:19,398 - __main__ - INFO - Signals in queue: 0
+2025-05-19 13:44:29,529 - __main__ - INFO - Processing symbols batch: ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'NEOUSDT', 'LTCUSDT']
+2025-05-19 13:44:29,530 - indicators - ERROR - Database manager not available
+2025-05-19 13:44:29,530 - signal_generator - ERROR - Required components not available
+2025-05-19 13:44:29,531 - indicators - ERROR - Database manager not available
+2025-05-19 13:44:29,531 - signal_generator - ERROR - Required components not available
+2025-05-19 13:44:29,531 - indicators - ERROR - Database manager not available
+2025-05-19 13:44:29,532 - signal_generator - ERROR - Required components not available
+2025-05-19 13:44:29,532 - indicators - ERROR - Database manager not available
+2025-05-19 13:44:29,533 - signal_generator - ERROR - Required components not available
+2025-05-19 13:44:29,533 - indicators - ERROR - Database manager not available
+2025-05-19 13:44:29,533 - signal_generator - ERROR - Required components not available
+2025-05-19 13:44:34,534 - __main__ - INFO - Processing symbols batch: ['QTUMUSDT', 'ADAUSDT', 'XRPUSDT', 'EOSUSDT', 'TUSDUSDT']
+2025-05-19 13:44:34,535 - indicators - ERROR - Database manager not available
+2025-05-19 13:44:34,535 - signal_generator - ERROR - Required components not available
+2025-05-19 13:44:34,535 - indicators - ERROR - Database manager not available
+2025-05-19 13:44:34,536 - signal_generator - ERROR - Required components not available
+2025-05-19 13:44:34,537 - indicators - ERROR - Database manager not available
+2025-05-19 13:44:34,537 - signal_generator - ERROR - Required components not available
+2025-05-19 13:44:34,537 - indicators - ERROR - Database manager not available
+2025-05-19 13:44:34,538 - signal_generator - ERROR - Required components not available
+2025-05-19 13:44:34,538 - indicators - ERROR - Database manager not available
+2025-05-19 13:44:34,538 - signal_generator - ERROR - Required components not available
+2025-05-19 13:45:39,540 - __main__ - INFO - Processing symbols batch: ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'NEOUSDT', 'LTCUSDT']
+2025-05-19 13:45:39,540 - indicators - ERROR - Database manager not available
+2025-05-19 13:45:39,541 - signal_generator - ERROR - Required components not available
+2025-05-19 13:45:39,541 - indicators - ERROR - Database manager not available
+2025-05-19 13:45:39,541 - signal_generator - ERROR - Required components not available
+2025-05-19 13:45:39,542 - indicators - ERROR - Database manager not available
+2025-05-19 13:45:39,543 - signal_generator - ERROR - Required components not available
+2025-05-19 13:45:39,544 - indicators - ERROR - Database manager not available
+2025-05-19 13:45:39,544 - signal_generator - ERROR - Required components not available
+2025-05-19 13:45:39,547 - indicators - ERROR - Database manager not available
+2025-05-19 13:45:39,547 - signal_generator - ERROR - Required components not available
+2025-05-19 13:45:44,549 - __main__ - INFO - Processing symbols batch: ['QTUMUSDT', 'ADAUSDT', 'XRPUSDT', 'EOSUSDT', 'TUSDUSDT']
+2025-05-19 13:45:44,551 - indicators - ERROR - Database manager not available
+2025-05-19 13:45:44,552 - signal_generator - ERROR - Required components not available
+2025-05-19 13:45:44,552 - indicators - ERROR - Database manager not available
+2025-05-19 13:45:44,553 - signal_generator - ERROR - Required components not available
+2025-05-19 13:45:44,553 - indicators - ERROR - Database manager not available
+2025-05-19 13:45:44,554 - signal_generator - ERROR - Required components not available
+2025-05-19 13:45:44,554 - indicators - ERROR - Database manager not available
+2025-05-19 13:45:44,555 - signal_generator - ERROR - Required components not available
+2025-05-19 13:45:44,556 - indicators - ERROR - Database manager not available
+2025-05-19 13:45:44,556 - signal_generator - ERROR - Required components not available
+2025-05-19 13:46:49,559 - __main__ - INFO - Processing symbols batch: ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'NEOUSDT', 'LTCUSDT']
+2025-05-19 13:46:49,560 - indicators - ERROR - Database manager not available
+2025-05-19 13:46:49,560 - signal_generator - ERROR - Required components not available
+2025-05-19 13:46:49,560 - indicators - ERROR - Database manager not available
+2025-05-19 13:46:49,561 - signal_generator - ERROR - Required components not available
+2025-05-19 13:46:49,561 - indicators - ERROR - Database manager not available
+2025-05-19 13:46:49,561 - signal_generator - ERROR - Required components not available
+2025-05-19 13:46:49,562 - indicators - ERROR - Database manager not available
+2025-05-19 13:46:49,562 - signal_generator - ERROR - Required components not available
+2025-05-19 13:46:49,563 - indicators - ERROR - Database manager not available
+2025-05-19 13:46:49,563 - signal_generator - ERROR - Required components not available
+2025-05-19 13:46:54,564 - __main__ - INFO - Processing symbols batch: ['QTUMUSDT', 'ADAUSDT', 'XRPUSDT', 'EOSUSDT', 'TUSDUSDT']
+2025-05-19 13:46:54,565 - indicators - ERROR - Database manager not available
+2025-05-19 13:46:54,565 - signal_generator - ERROR - Required components not available
+2025-05-19 13:46:54,565 - indicators - ERROR - Database manager not available
+2025-05-19 13:46:54,566 - signal_generator - ERROR - Required components not available
+2025-05-19 13:46:54,566 - indicators - ERROR - Database manager not available
+2025-05-19 13:46:54,567 - signal_generator - ERROR - Required components not available
+2025-05-19 13:46:54,567 - indicators - ERROR - Database manager not available
+2025-05-19 13:46:54,567 - signal_generator - ERROR - Required components not available
+2025-05-19 13:46:54,568 - indicators - ERROR - Database manager not available
+2025-05-19 13:46:54,568 - signal_generator - ERROR - Required components not available
+2025-05-19 13:47:59,570 - __main__ - INFO - Processing symbols batch: ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'NEOUSDT', 'LTCUSDT']
+2025-05-19 13:47:59,570 - indicators - ERROR - Database manager not available
+2025-05-19 13:47:59,570 - signal_generator - ERROR - Required components not available
+2025-05-19 13:47:59,571 - indicators - ERROR - Database manager not available
+2025-05-19 13:47:59,571 - signal_generator - ERROR - Required components not available
+2025-05-19 13:47:59,571 - indicators - ERROR - Database manager not available
+2025-05-19 13:47:59,571 - signal_generator - ERROR - Required components not available
+2025-05-19 13:47:59,572 - indicators - ERROR - Database manager not available
+2025-05-19 13:47:59,572 - signal_generator - ERROR - Required components not available
+2025-05-19 13:47:59,572 - indicators - ERROR - Database manager not available
+2025-05-19 13:47:59,572 - signal_generator - ERROR - Required components not available
+2025-05-19 13:48:04,595 - __main__ - INFO - Processing symbols batch: ['QTUMUSDT', 'ADAUSDT', 'XRPUSDT', 'EOSUSDT', 'TUSDUSDT']
+2025-05-19 13:48:04,597 - indicators - ERROR - Database manager not available
+2025-05-19 13:48:04,598 - signal_generator - ERROR - Required components not available
+2025-05-19 13:48:04,598 - indicators - ERROR - Database manager not available
+2025-05-19 13:48:04,598 - signal_generator - ERROR - Required components not available
+2025-05-19 13:48:04,599 - indicators - ERROR - Database manager not available
+2025-05-19 13:48:04,599 - signal_generator - ERROR - Required components not available
+2025-05-19 13:48:04,600 - indicators - ERROR - Database manager not available
+2025-05-19 13:48:04,600 - signal_generator - ERROR - Required components not available
+2025-05-19 13:48:04,600 - indicators - ERROR - Database manager not available
+2025-05-19 13:48:04,601 - signal_generator - ERROR - Required components not available
+2025-05-19 13:49:09,678 - __main__ - INFO - Processing symbols batch: ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'NEOUSDT', 'LTCUSDT']
+2025-05-19 13:49:09,678 - indicators - ERROR - Database manager not available
+2025-05-19 13:49:09,680 - signal_generator - ERROR - Required components not available
+2025-05-19 13:49:09,680 - indicators - ERROR - Database manager not available
+2025-05-19 13:49:09,680 - signal_generator - ERROR - Required components not available
+2025-05-19 13:49:09,681 - indicators - ERROR - Database manager not available
+2025-05-19 13:49:09,681 - signal_generator - ERROR - Required components not available
+2025-05-19 13:49:09,682 - indicators - ERROR - Database manager not available
+2025-05-19 13:49:09,682 - signal_generator - ERROR - Required components not available
+2025-05-19 13:49:09,683 - indicators - ERROR - Database manager not available
+2025-05-19 13:49:09,683 - signal_generator - ERROR - Required components not available
+2025-05-19 13:49:14,684 - __main__ - INFO - Processing symbols batch: ['QTUMUSDT', 'ADAUSDT', 'XRPUSDT', 'EOSUSDT', 'TUSDUSDT']
+2025-05-19 13:49:14,684 - indicators - ERROR - Database manager not available
+2025-05-19 13:49:14,685 - signal_generator - ERROR - Required components not available
+2025-05-19 13:49:14,685 - indicators - ERROR - Database manager not available
+2025-05-19 13:49:14,685 - signal_generator - ERROR - Required components not available
+2025-05-19 13:49:14,685 - indicators - ERROR - Database manager not available
+2025-05-19 13:49:14,686 - signal_generator - ERROR - Required components not available
+2025-05-19 13:49:14,686 - indicators - ERROR - Database manager not available
+2025-05-19 13:49:14,686 - signal_generator - ERROR - Required components not available
+2025-05-19 13:49:14,687 - indicators - ERROR - Database manager not available
+2025-05-19 13:49:14,687 - signal_generator - ERROR - Required components not available
+2025-05-19 13:49:19,662 - __main__ - INFO - WebSocket client status: Running
+2025-05-19 13:49:19,662 - __main__ - INFO - Signals in queue: 0
+2025-05-19 13:50:19,689 - __main__ - INFO - Processing symbols batch: ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'NEOUSDT', 'LTCUSDT']
+2025-05-19 13:50:19,689 - indicators - ERROR - Database manager not available
+2025-05-19 13:50:19,690 - signal_generator - ERROR - Required components not available
+2025-05-19 13:50:19,690 - indicators - ERROR - Database manager not available
+2025-05-19 13:50:19,690 - signal_generator - ERROR - Required components not available
+2025-05-19 13:50:19,691 - indicators - ERROR - Database manager not available
+2025-05-19 13:50:19,691 - signal_generator - ERROR - Required components not available
+2025-05-19 13:50:19,692 - indicators - ERROR - Database manager not available
+2025-05-19 13:50:19,692 - signal_generator - ERROR - Required components not available
+2025-05-19 13:50:19,693 - indicators - ERROR - Database manager not available
+2025-05-19 13:50:19,693 - signal_generator - ERROR - Required components not available
+2025-05-19 13:50:24,694 - __main__ - INFO - Processing symbols batch: ['QTUMUSDT', 'ADAUSDT', 'XRPUSDT', 'EOSUSDT', 'TUSDUSDT']
+2025-05-19 13:50:24,695 - indicators - ERROR - Database manager not available
+2025-05-19 13:50:24,696 - signal_generator - ERROR - Required components not available
+2025-05-19 13:50:24,696 - indicators - ERROR - Database manager not available
+2025-05-19 13:50:24,697 - signal_generator - ERROR - Required components not available
+2025-05-19 13:50:24,698 - indicators - ERROR - Database manager not available
+2025-05-19 13:50:24,698 - signal_generator - ERROR - Required components not available
+2025-05-19 13:50:24,699 - indicators - ERROR - Database manager not available
+2025-05-19 13:50:24,700 - signal_generator - ERROR - Required components not available
+2025-05-19 13:50:24,701 - indicators - ERROR - Database manager not available
+2025-05-19 13:50:24,701 - signal_generator - ERROR - Required components not available
+2025-05-19 13:50:39,381 - __main__ - INFO - Shutdown signal received
+2025-05-19 13:50:39,383 - __main__ - INFO - Stopping trading bot
+2025-05-19 13:50:39,590 - websocket_client - INFO - WebSocket closed (btcusdt@kline_1m): None
+2025-05-19 13:50:40,000 - websocket_client - INFO - WebSocket closed (ethusdt@kline_1m): None
+2025-05-19 13:50:40,326 - websocket_client - INFO - WebSocket closed (bnbusdt@kline_1m): None
+2025-05-19 13:50:40,683 - websocket_client - INFO - WebSocket closed (neousdt@kline_1m): None
+2025-05-19 13:50:40,990 - websocket_client - INFO - WebSocket closed (ltcusdt@kline_1m): None
+2025-05-19 13:50:41,266 - websocket_client - INFO - WebSocket closed (qtumusdt@kline_1m): None
+2025-05-19 13:50:41,559 - websocket_client - INFO - WebSocket closed (adausdt@kline_1m): None
+2025-05-19 13:50:41,840 - websocket_client - INFO - WebSocket closed (xrpusdt@kline_1m): None
+2025-05-19 13:50:41,903 - websocket_client - INFO - WebSocket closed (eosusdt@kline_1m): None
+2025-05-19 13:50:42,448 - websocket_client - INFO - WebSocket closed (tusdusdt@kline_1m): None
+2025-05-19 13:50:42,450 - websocket_client - INFO - WebSocket client stopped
