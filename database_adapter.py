@@ -12,7 +12,7 @@ class DatabaseAdapter:
         os.makedirs(db_path, exist_ok=True)
         logger.info("Database adapter initialized")
 
-        # Add the confirmed column to positions table if it doesn't exist
+        self._create_tables()
         self._add_confirmed_column_if_not_exists()
 
     def _add_confirmed_column_if_not_exists(self):
@@ -21,7 +21,6 @@ class DatabaseAdapter:
             conn = sqlite3.connect(os.path.join(self.db_path, 'positions.db'))
             cursor = conn.cursor()
 
-            # Check if the confirmed column exists
             cursor.execute("PRAGMA table_info(positions)")
             columns = [column[1] for column in cursor.fetchall()]
 
@@ -32,21 +31,62 @@ class DatabaseAdapter:
 
             conn.close()
         except Exception as e:
-            logger.error(f"Error adding confirmed column: {e}")
+            logger.error(f"Error adding 'confirmed' column: {e}")
+
+    def _create_tables(self):
+        """Create database tables if they don't exist"""
+        try:
+            conn = sqlite3.connect(os.path.join(self.db_path, 'positions.db'))
+            cursor = conn.cursor()
+
+            cursor.execute('''
+            CREATE TABLE IF NOT EXISTS positions (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                symbol TEXT NOT NULL,
+                position_type TEXT NOT NULL,
+                entry_price REAL NOT NULL,
+                entry_time TEXT NOT NULL,
+                exit_price REAL,
+                exit_time TEXT,
+                status TEXT DEFAULT 'OPEN',
+                profit_loss_percent REAL,
+                exit_reason TEXT,
+                confirmed BOOLEAN DEFAULT 0,
+                signal_id INTEGER,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+            ''')
+
+            cursor.execute('''
+            CREATE TABLE IF NOT EXISTS signals (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                symbol TEXT NOT NULL,
+                direction TEXT NOT NULL,
+                confidence REAL,
+                entry_price REAL,
+                timestamp INTEGER,
+                status TEXT DEFAULT 'PENDING'
+            )
+            ''')
+
+            conn.commit()
+            conn.close()
+            logger.info("Database tables created successfully")
+        except Exception as e:
+            logger.error(f"Error creating database tables: {e}")
 
     def increment_signal_count(self, symbol):
         """Increment the signal count for a symbol and check if it's below the limit"""
         try:
-            # Get the maximum signals per day from configuration
             conn = sqlite3.connect(os.path.join(self.db_path, 'config.db'))
             cursor = conn.cursor()
             cursor.execute('SELECT max_signals_per_day FROM configuration WHERE id = 1')
             max_signals = cursor.fetchone()[0]
             conn.close()
 
-            # Count signals for this symbol today
             today = datetime.now().strftime('%Y-%m-%d')
-            conn = sqlite3.connect(os.path.join(self.db_path, 'signals.db'))
+            conn = sqlite3.connect(os.path.join(self.db_path, 'positions.db'))
             cursor = conn.cursor()
             cursor.execute('''
             SELECT COUNT(*) FROM signals 
@@ -56,7 +96,6 @@ class DatabaseAdapter:
             count = cursor.fetchone()[0]
             conn.close()
 
-            # Check if we're below the limit
             return count < max_signals
         except Exception as e:
             logger.error(f"Error incrementing signal count: {e}")
@@ -68,29 +107,22 @@ class DatabaseAdapter:
             conn = sqlite3.connect(os.path.join(self.db_path, 'positions.db'))
             cursor = conn.cursor()
 
-            # Insert signal
-            conn_signals = sqlite3.connect(os.path.join(self.db_path, 'signals.db'))
-            cursor_signals = conn_signals.cursor()
-            cursor_signals.execute('''
+            cursor.execute('''
             INSERT INTO signals (
-                symbol, signal_type, price, confidence_score, timestamp, status
+                symbol, direction, confidence, entry_price, timestamp, status
             ) VALUES (?, ?, ?, ?, ?, ?)
             ''', (
                 symbol,
                 trend,
-                price,
                 0.8,  # Default confidence score
+                price,
                 int(datetime.now().timestamp() * 1000),
                 'SENT'
             ))
-            conn_signals.commit()
 
-            # Get the signal ID
-            cursor_signals.execute('SELECT last_insert_rowid()')
-            db_signal_id = cursor_signals.fetchone()[0]
-            conn_signals.close()
+            cursor.execute('SELECT last_insert_rowid()')
+            db_signal_id = cursor.fetchone()[0]
 
-            # Insert position
             cursor.execute('''
             INSERT INTO positions (
                 symbol, position_type, entry_price, entry_time, status, confirmed, signal_id
@@ -121,7 +153,6 @@ class DatabaseAdapter:
             conn = sqlite3.connect(os.path.join(self.db_path, 'positions.db'))
             cursor = conn.cursor()
 
-            # First, check if there's a position with this signal_id
             cursor.execute('''
             SELECT id FROM positions
             WHERE signal_id = ?
@@ -130,8 +161,6 @@ class DatabaseAdapter:
             position = cursor.fetchone()
 
             if not position:
-                # If not found by signal_id, try to find by the message ID
-                # This is for backward compatibility
                 cursor.execute('''
                 SELECT id FROM positions
                 WHERE id = ?
@@ -144,7 +173,6 @@ class DatabaseAdapter:
                     conn.close()
                     return False
 
-            # Update the position
             cursor.execute('''
             UPDATE positions
             SET confirmed = 1
@@ -166,7 +194,6 @@ class DatabaseAdapter:
             conn = sqlite3.connect(os.path.join(self.db_path, 'positions.db'))
             cursor = conn.cursor()
 
-            # Get position details
             cursor.execute('''
             SELECT symbol, position_type, entry_price, signal_id
             FROM positions WHERE id = ? AND status = 'OPEN'
@@ -179,13 +206,11 @@ class DatabaseAdapter:
 
             symbol, position_type, entry_price, signal_id = position
 
-            # Calculate profit/loss
             if position_type == 'LONG':
                 profit_pct = ((exit_price - entry_price) / entry_price) * 100
             else:  # SHORT
                 profit_pct = ((entry_price - exit_price) / entry_price) * 100
 
-            # Update position
             cursor.execute('''
             UPDATE positions SET 
                 exit_price = ?, 
@@ -201,16 +226,11 @@ class DatabaseAdapter:
                 position_id
             ))
 
-            # Update signal
-            conn_signals = sqlite3.connect(os.path.join(self.db_path, 'signals.db'))
-            cursor_signals = conn_signals.cursor()
-            cursor_signals.execute('''
+            cursor.execute('''
             UPDATE signals SET status = 'COMPLETED' WHERE id = ?
             ''', (signal_id,))
 
             conn.commit()
-            conn_signals.commit()
-            conn_signals.close()
             conn.close()
 
             return True
@@ -264,20 +284,17 @@ class DatabaseAdapter:
             conn = sqlite3.connect(os.path.join(self.db_path, 'config.db'))
             cursor = conn.cursor()
 
-            # Check if we have a symbol-specific configuration
             cursor.execute('''
             SELECT COUNT(*) FROM symbol_config WHERE symbol = ?
             ''', (symbol,))
 
             if cursor.fetchone()[0] > 0:
-                # Update existing configuration
                 cursor.execute('''
                 UPDATE symbol_config 
                 SET max_signals = ?, updated_at = CURRENT_TIMESTAMP
                 WHERE symbol = ?
                 ''', (max_count, symbol))
             else:
-                # Insert new configuration
                 cursor.execute('''
                 CREATE TABLE IF NOT EXISTS symbol_config (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,

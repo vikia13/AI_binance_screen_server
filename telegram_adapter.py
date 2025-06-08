@@ -29,7 +29,6 @@ class TelegramAdapter:
         self.polling_thread.daemon = True
         self.polling_thread.start()
 
-        # Send startup message to all allowed users
         for user_id in self.allowed_users:
             self.send_message(user_id, "🤖 Trading bot started and ready to receive commands!")
 
@@ -42,7 +41,6 @@ class TelegramAdapter:
 
         self.running = False
 
-        # Send shutdown message to all allowed users
         for user_id in self.allowed_users:
             self.send_message(user_id, "🛑 Trading bot is shutting down")
 
@@ -64,11 +62,10 @@ class TelegramAdapter:
                         self._process_update(update)
                         self.last_update_id = max(self.last_update_id, update['update_id'] + 1)
 
-                # Sleep to avoid hitting Telegram API limits
                 time.sleep(1)
             except Exception as e:
                 logger.error(f"Error polling Telegram updates: {e}")
-                time.sleep(5)  # Wait longer if there's an error
+                time.sleep(5)
 
     def _get_updates(self):
         """Get updates from Telegram API"""
@@ -104,13 +101,11 @@ class TelegramAdapter:
         chat_id = str(message['chat']['id'])
         user_id = str(message['from']['id'])
 
-        # Check if user is authorized
         if self.allowed_users and user_id not in self.allowed_users:
             logger.warning(f"Unauthorized access attempt from user ID: {user_id}")
             self.send_message(chat_id, "⛔ You are not authorized to use this bot.")
             return
 
-        # Process commands
         if text.startswith('/'):
             command = text.split()[0].lower()
 
@@ -122,6 +117,8 @@ class TelegramAdapter:
                 self._send_symbols(chat_id)
             else:
                 self.send_message(chat_id, f"Unknown command: {command}\nType /help for available commands.")
+        else:
+            self._handle_position_confirmation(text, chat_id)
 
     def _send_help(self, chat_id):
         """Send help message"""
@@ -137,12 +134,10 @@ class TelegramAdapter:
         """Send bot status"""
         status_text = "🤖 *Trading Bot Status*\n\n"
 
-        # Get WebSocket status
         if 'websocket' in self.components:
             ws_status = "Running" if self.components['websocket'].is_running() else "Not running"
             status_text += f"WebSocket Client: {ws_status}\n"
 
-        # Get active symbols count
         if 'websocket' in self.components:
             symbols = self.components['websocket'].get_active_symbols()
             status_text += f"Active Symbols: {len(symbols) if symbols else 0}\n"
@@ -155,7 +150,7 @@ class TelegramAdapter:
             symbols = self.components['websocket'].get_active_symbols()
             if symbols:
                 symbols_text = "📊 *Active Trading Pairs*\n\n"
-                symbols_text += "\n".join(symbols[:20])  # First 20 only
+                symbols_text += "\n".join(symbols[:20])
 
                 if len(symbols) > 20:
                     symbols_text += f"\n\n...and {len(symbols) - 20} more"
@@ -165,6 +160,58 @@ class TelegramAdapter:
                 self.send_message(chat_id, "No active symbols available")
         else:
             self.send_message(chat_id, "WebSocket client not available")
+
+    def _handle_position_confirmation(self, text, chat_id):
+        """Handle position confirmation messages like 'id:123 ok'"""
+        import re
+        
+        pattern = r'id:(\d+)\s*ok'
+        match = re.search(pattern, text.lower())
+        
+        if match:
+            signal_id = int(match.group(1))
+            
+            try:
+                from database_adapter import DatabaseAdapter
+                db_adapter = DatabaseAdapter()
+                success = db_adapter.confirm_position(signal_id)
+                
+                if success:
+                    self.send_message(chat_id, f"✅ Position confirmed for signal ID: {signal_id}")
+                    logger.info(f"Position confirmed for signal ID: {signal_id}")
+                else:
+                    self.send_message(chat_id, f"❌ Could not confirm position for signal ID: {signal_id}")
+                    logger.warning(f"Failed to confirm position for signal ID: {signal_id}")
+            except Exception as e:
+                logger.error(f"Error confirming position: {e}")
+                self.send_message(chat_id, f"❌ Error confirming position: {str(e)}")
+
+    def send_signal_notification(self, signal):
+        """Send a trading signal notification to all allowed users"""
+        try:
+            symbol = signal.get('symbol', 'Unknown')
+            direction = signal.get('direction', 'Unknown')
+            confidence = signal.get('confidence', 0)
+            entry_price = signal.get('entry_price', 0)
+            signal_id = signal.get('signal_id', 'Unknown')
+            
+            emoji = "🟢" if direction == "LONG" else "🔴"
+            message = (
+                f"{emoji} *{direction} Signal* - {symbol}\n\n"
+                f"📊 Entry Price: ${entry_price:.4f}\n"
+                f"🎯 Confidence: {confidence:.2f}\n"
+                f"🆔 Signal ID: {signal_id}\n\n"
+                f"Reply with `id:{signal_id} ok` to confirm position entry"
+            )
+            
+            for user_id in self.allowed_users:
+                self.send_message(user_id, message)
+                
+            logger.info(f"Signal notification sent for {symbol} {direction}")
+            return True
+        except Exception as e:
+            logger.error(f"Error sending signal notification: {e}")
+            return False
 
     def send_message(self, chat_id, text, parse_mode="Markdown"):
         """Send message to Telegram chat"""
