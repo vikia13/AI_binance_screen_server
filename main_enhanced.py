@@ -6,8 +6,8 @@ import signal
 import sys
 import queue
 from telegram.ext._utils.webhookhandler import TelegramHandler
-from database_manager import DatabaseManager
-from websocket_client import BinanceWebSocketClient
+from enhanced_database_manager import EnhancedDatabaseManager
+from performance_enhanced_websocket import PerformanceEnhancedWebSocketClient
 from indicators import TechnicalIndicators
 from ai_model_enhanced import EnhancedAIModel
 from signal_generator import SignalGenerator
@@ -47,11 +47,11 @@ class TradingBot:
         """Initialize all trading bot components"""
         try:
             # Initialize database manager with db_path
-            self.components['database'] = DatabaseManager(self.db_path)
+            self.components['database'] = EnhancedDatabaseManager(self.db_path)
             self.db_manager = self.components['database']
 
             # Initialize components with the db_manager object
-            self.components['websocket'] = BinanceWebSocketClient(self.db_manager)
+            self.components['websocket'] = PerformanceEnhancedWebSocketClient(self.db_manager)
             self.components['indicators'] = TechnicalIndicators(self.db_manager)
             self.components['ai_model'] = EnhancedAIModel(self.db_manager)
             self.components['signals'] = SignalGenerator(
