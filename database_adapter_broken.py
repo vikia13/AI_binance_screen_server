@@ -5,7 +5,6 @@ from datetime import datetime
 
 logger = logging.getLogger(__name__)
 
-
 class DatabaseAdapter:
     def __init__(self, db_path='data'):
         self.db_path = db_path
@@ -114,7 +113,7 @@ class DatabaseAdapter:
             ''', (
                 symbol,
                 trend,
-                0.8,  # Default confidence score
+                0.8,
                 price,
                 int(datetime.now().timestamp() * 1000),
                 'SENT'
@@ -133,7 +132,7 @@ class DatabaseAdapter:
                 price,
                 datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
                 'OPEN',
-                0,  # Not confirmed by default
+                0,
                 db_signal_id
             ))
 
@@ -208,7 +207,7 @@ class DatabaseAdapter:
 
             if position_type == 'LONG':
                 profit_pct = ((exit_price - entry_price) / entry_price) * 100
-            else:  # SHORT
+            else:
                 profit_pct = ((entry_price - exit_price) / entry_price) * 100
 
             cursor.execute('''

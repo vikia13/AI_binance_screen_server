@@ -16,6 +16,7 @@ class EnhancedAIModel:
     # In ai_model_enhanced.py
     def __init__(self, db_manager):
         try:
+            self._init_models()
             self.db_manager = db_manager
             logger.info("Enhanced AI model initialized with multi-model support")
         except Exception as e:
